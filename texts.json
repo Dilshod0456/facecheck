@@ -78,6 +78,12 @@
                 "subtitle": "Tahlil va xulosa tayyorlash jarayonini avtomatlashtirish natijasida o‘quv jarayonini nazorat qilish yanada oson va samarali bo‘ladi.",
                 "img": "images/about/05.png",
                 "img_alt": "Umumiy tahlil va xulosa"
+            },
+            "card_5": {
+                "title": "Avtomatlashtirilgan davomat",
+                "subtitle": "Endi davomatni qo‘lda yuritish shart emas – dasturimiz buni avtomatik tarzda bajaradi. <br> Siz faqatgina natijalarni kuzatib turishingiz kifoya.",
+                "img": "images/about/06.jpg",
+                "img_alt": "Avtomatlashtirilgan davomat"
             }
         }
 
