@@ -1,0 +1,91 @@
+
+{
+    "banner": {
+        "title": "Intellektual davomat tizimi",
+        "subtitle": "Sun’iy intellekt rivojlangan davrda ham eski uslubdan voz kechmaslik – bu orqada qolish demakdir. Yangi avlod davomat tizimiga o‘ting!",
+        "button": "Batafsil",
+        "button_href": "#about",
+        "image_1": "images/banner/01.jpg",
+        "image_1_alt": "Intellektual davomat tizimi",
+        "image_2": "images/banner/02.png",
+        "imgage_2_alt": "Intellektual davomat tizimi",
+        "video": "",
+        "video_href": "video/taqdimot.mp4",
+        "video_alt": "Intellektual davomat tizimi"
+    },
+    "our-services": {
+        "title": "Smart davomat tizimi",
+        "subtitle": "Biz bilan yanada qulayroq",
+        "img_1": "images/about/05.png",
+        "img_1_alt": "Smart davomat tizimi",
+        "img_2": "images/about/06.jpg",
+        "img_2_alt": "Smart davomat tizimi",
+        "img_3": "images/about/04.png",
+        "img_3_alt": "Smart davomat tizimi",
+        "img_4": "images/about/07.jpg",
+        "img_4_alt": "Smart davomat tizimi",
+        "s1_title": "Avtomatlashtirilgan davomat",
+        "s1_subtitle": "Endi davomatni qo‘lda yuritish shart emas – dasturimiz buni avtomatik tarzda bajaradi. <br> Siz faqatgina natijalarni kuzatib turishingiz kifoya.",
+        "s2_title": "Individual tahlil",
+        "s2_subtitle": "Bunday qulaylik hali mavjud bo‘lmagan! Har bir o‘quvchi uchun individual tahlil yuritish va darsga qatnashuvini baholash imkoniyati sizning qo‘lingizda.",
+        "s3_title": "Doimiy kuzatuv",
+        "s3_subtitle": "Siz kuzatish jarayonida o'quvchingizning darslardagi ishtirokini tahlil qilib, uning faolligini aniqlashingiz mumkin bo'ladi.",
+        "s4_title": "Umumiy tahlil va xulosa",
+        "s4_subtitle": "Tahlil va xulosa tayyorlash jarayonini avtomatlashtirish natijasida o‘quv jarayonini nazorat qilish yanada oson va samarali bo‘ladi."
+
+    },
+    "calc": {
+        "title": "Biz bilan siz qancha ish vaqtini tejaysiz?",
+        "subtitle": "Xodimlaringiz faqat davomat qilgani uchun qancha pulingiz behuda ketayotganini hisoblab ko‘ring <br> bu sizni qoniqtiradimi?",
+        "inputSectionTitle": "Hisoblash uchun ma'lumotlarni kiriting",
+        "labelAvgSalary": "O‘rtacha oylik maosh (so‘m)",
+        "labelLessonCount": "Darslar soni (oyiga)",
+        "labelLessonDuration": "Dars davomiyligi (daqiqa)",
+        "labelAttendanceTime": "Davomat uchun vaqt (daqiqa)",
+        "labelEmployeeCount": "Xodimlar soni",
+        "resultSectionTitle": "Hisob-kitob natijalari",
+        "resultMinuteSalaryLabel": "1 daqiqalik maosh:",
+        "resultAttendanceSalaryLabel": "1 darsdagi davomat maoshi:",
+        "resultMonthlyAttendanceSalaryLabel": "Oylik davomat maoshi (1 xodim):",
+        "resultTotalSalaryLabel": "Umumiy oylik xarajat (barcha xodimlar):"
+    },
+    "our-feature": {
+        "title": "Kelajak uchun rejalarimiz",
+        "subtitle": "Sizni oldinda ajoyib imkoniyatlar kutmoqda. Kelajagingizni hozirdan shakllantiiring!",
+        "bg-img": "images/banner/02.jpg",
+        "bg-img_alt": "Kelajak uchun rejalarimiz fon rasmi",
+        "goals": {
+            "card_1": {
+                "title": "Avtomatlashtirilgan davomat",
+                "subtitle": "Endi davomatni qo‘lda yuritish shart emas – dasturimiz buni avtomatik tarzda bajaradi. <br> Siz faqatgina natijalarni kuzatib turishingiz kifoya.",
+                "img": "images/banner/02.jpg",
+                "img_alt": "Avtomatlashtirilgan davomat"
+            },
+            "card_2": {
+                "title": "Individual tahlil",
+                "subtitle": "Bunday qulaylik hali mavjud bo‘lmagan! Har bir o‘quvchi uchun individual tahlil yuritish va darsga qatnashuvini baholash imkoniyati sizning qo‘lingizda.",
+                "img": "images/about/03.jpg",
+                "img_alt": "Individual tahlil"
+            },
+            "card_3": {
+                "title": "Doimiy kuzatuv",
+                "subtitle": "Siz kuzatish jarayonida o'quvchingizning darslardagi ishtirokini tahlil qilib, uning faolligini aniqlashingiz mumkin bo'ladi.",
+                "img": "images/about/04.png",
+                "img_alt": "Doimiy kuzatuv"
+            },
+            "card_4": {
+                "title": "Umumiy tahlil va xulosa",
+                "subtitle": "Tahlil va xulosa tayyorlash jarayonini avtomatlashtirish natijasida o‘quv jarayonini nazorat qilish yanada oson va samarali bo‘ladi.",
+                "img": "images/about/05.png",
+                "img_alt": "Umumiy tahlil va xulosa"
+            },
+            "card_5": {
+                "title": "Avtomatlashtirilgan davomat",
+                "subtitle": "Endi davomatni qo‘lda yuritish shart emas – dasturimiz buni avtomatik tarzda bajaradi. <br> Siz faqatgina natijalarni kuzatib turishingiz kifoya.",
+                "img": "images/about/06.jpg",
+                "img_alt": "Avtomatlashtirilgan davomat"
+            }
+        }
+
+    }
+}
