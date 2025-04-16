@@ -16,6 +16,8 @@
    <link rel="stylesheet" href="css/style.css">
    <!-- Responsive CSS -->
    <link rel="stylesheet" href="css/responsive.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 
 <body>
@@ -48,14 +50,15 @@
                            <a class="nav-link" href="#our-services">Biz haqimizda</a>
                         </li>
 
-                        <li class="nav-item">
-                           <a class="nav-link" href="contact-us.html">Bog'lanish uchun</a>
-                        </li>
+                       
                         <li class="nav-item">
                            <a class="nav-link" href="#calc">SmartHisob</a>
                         </li>
                         <li class="nav-item">
                            <a class="nav-link" href="#alternativ">Afzalliklar</a>
+                        </li> 
+                        <li class="nav-item">
+                           <a class="nav-link" href="#footer">Bog'lanish uchun</a>
                         </li>
 
                         <!-- <li class="nav-item dropdown">
@@ -82,8 +85,8 @@
             </div>
             <div class="col-lg-2 text-right p-0">
                <ul class="login">
-                  <li class="d-inline pr-3 pr-md-2"><a href="#login.html">Kirish</a></li>
-                  <li class="d-inline pl-3 pl-md-0"><a href="#register.html">Yangi hisob</a></li>
+                  <!-- <li class="d-inline pr-3 pr-md-2" style="display: none;"><a href="#login.html">Kirish</a></li>
+                  <li class="d-inline pl-3 pl-md-0"><a href="#register.html">Yangi hisob</a></li> -->
                </ul>
             </div>
          </div>
@@ -509,43 +512,26 @@
       MAIN CONTENT -->
    <!--=================================
       Footer -->
-   <footer class="gray-bg">
+   <footer class="gray-bg" id="footer">
       <div class="container">
          <div class="footer-top">
             <div class="row">
-               <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
+               <!-- Kompaniya -->
+               <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                   <h4 class="iq-fw-7 mb-3">Kompaniya</h4>
                   <ul class="d-block">
-                     <li class="d-block  iq-fw-6 mb-2"><a href="index.html" class="text-gray">Bosh sahifa</a></li>
-                     <li class="d-block  iq-fw-6 mb-2"><a href="#our-services" class="text-gray">Biz haqimizda</a></li>
-                     <li class="d-block  iq-fw-6 mb-2"><a href="" class="text-gray">Sahifalar</a></li>
-                     <li class="d-block  iq-fw-6 mb-2"><a href="#calc" class="text-gray">SmartHisob</a></li>
-                     <li class="d-block  iq-fw-6"><a href="#alternativ" class="text-gray">Afzalliklar</a></li>
+                     <li class="d-block iq-fw-6 mb-2"><a href="index.html" class="text-gray">Bosh sahifa</a></li>
+                     <li class="d-block iq-fw-6 mb-2"><a href="#our-services" class="text-gray">Biz haqimizda</a></li>
+                     <li class="d-block iq-fw-6 mb-2"><a href="#" class="text-gray">Sahifalar</a></li>
+                     <li class="d-block iq-fw-6 mb-2"><a href="#calc" class="text-gray">SmartHisob</a></li>
+                     <li class="d-block iq-fw-6"><a href="#alternativ" class="text-gray">Afzalliklar</a></li>
                   </ul>
-               </div>
-
-               <div class="col-lg-2 col-md-6 mb-5 mb-lg-0 mb-md-0">
-                  <h4 class="iq-fw-7 mb-3">Yordam</h4>
-                  <ul class="d-block">
-                     <li class="d-block  iq-fw-6 mb-2"><a href="" class="text-gray">Qo‘llab-quvvatlash</a></li>
-                     <li class="d-block  iq-fw-6 mb-2"><a href="" class="text-gray">FAQ (Savol-javoblar)</a></li>
-                     <li class="d-block  iq-fw-6 mb-2"><a href="contact-us.html" class="text-gray">Aloqa</a></li>
-                  </ul>
-               </div>
-
-               <div class="col-lg-6 col-md-6">
-                  <h4 class="iq-fw-7 mb-4">Yangiliklarga obuna bo‘ling</h4>
-                  <form>
-                     <input type="email" name="" placeholder="Email manzilingizni kiriting"
-                        class="subscription-email position-relative form-control d-inline-block">
-                     <a href="" class="button subscription-button">Obuna bo‘lish</a>
-                  </form>
-                  <ul class="list-inline mb-5">
+                  <ul class="list-inline mb-5 mt-3">
                      <li class="list-inline-item iq-fw-6 text-black"><i class="fas fa-phone"></i><span
                            class="ml-2 text-gray">+ 998(94) 350 11 44</span></li>
-                     <li class="list-inline-item ml-3 iq-fw-6 text-black"><a href="mailto:dilshod04556@gmail.com"><i
-                              class="fas fa-envelope-open-text"></i><span
-                              class="ml-2 text-gray">dilshod04556@gmail.com</span </a>
+                     <li class="list-inline-item ml-3 iq-fw-6 text-black">
+                        <a href="mailto:dilshod04556@gmail.com"><i class="fas fa-envelope-open-text"></i><span
+                              class="ml-2 text-gray">dilshod04556@gmail.com</span></a>
                      </li>
                   </ul>
                   <ul class="list-inline">
@@ -557,13 +543,31 @@
                               class="fab fa-linkedin"></i></a></li>
                   </ul>
                </div>
+
+               <!-- Stylish Contact Form -->
+               <div class="col-lg-5 col-md-6">
+                  <h4 class="iq-fw-7 mb-4">Biz bilan bog‘laning</h4>
+                  <div class="footer-form-container">
+                     <form action="mailto:dilshod04556@gmail.com" method="post" enctype="text/plain"
+                        class="styled-form">
+                        <input type="text" name="name" class="form-input" placeholder="Ismingiz" required>
+                        <input type="email" name="email" class="form-input" placeholder="Email manzilingiz" required>
+                        <textarea name="message" rows="3" class="form-input" placeholder="Xabaringiz"
+                           required></textarea>
+                        <button type="submit" class="form-button">
+                           <i class="fas fa-paper-plane"></i> Yuborish
+                        </button>
+                     </form>
+                  </div>
+               </div>
+
+               <
             </div>
          </div>
 
          <div class="footer-bottom">
             <div class="row">
                <div class="col-auto mr-auto">
-
                </div>
                <div class="col-auto r-font-12"><a href="" class="text-gray iq-fw-6">FaceCheck © Barcha huquqlar
                      himoyalangan 2025</a></div>
@@ -575,6 +579,7 @@
             <a class="top" id="top" href="#top"> <i class="ion-ios-upload-outline"></i> </a>
          </div>
          <!-- back-to-top End -->
+      </div>
    </footer>
 
    <!-- Optional JavaScript -->

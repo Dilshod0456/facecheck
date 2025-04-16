@@ -451,7 +451,7 @@ footer .form-control{display: block;
     width: 364px; margin-bottom: 30px;}
 
 .footer-top{padding-top: 80px; border-bottom: 1px solid #e4e4e4;}
-.footer-bottom{padding: 20px 0;}
+.footer-bottom{padding-bottom: 20px;}
 
 
 .our-partners img.partners-img { -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */ filter: grayscale(100%); /* FF 35+ */ }
