@@ -23,7 +23,7 @@ Design and Developed by: iqonicthemes.in
 [ End table content ]
 ======================================*/
 /*---------------------------------------------------------------------
-1 Google Font
+1 Google Fonts
 -----------------------------------------------------------------------*/
 @import url('css');
 @import url('css-1');
@@ -60,7 +60,7 @@ h4 { font-size: 24px; font-style: normal; line-height: 34px; }
 h5 { font-size: 16px; font-style: normal; line-height: 26px; }
 h6 { font-size: 14px; font-style: normal; line-height: 24px; }
 ul { margin: 0px; padding: 0px; }
-section { padding: 100px 0; }
+section { padding: 20px 0; }
 .container-fluid{padding:0 80px;}
 .container{max-width:1170px;}
 
@@ -102,14 +102,14 @@ textarea { padding: 10px 0 0 10px; border-radius: .25rem; }
 /*---------------------------------------------------------------------
 7 Button
 -----------------------------------------------------------------------*/
-.button { background:  #2062a880 ; color: #ffffff; padding: 15px 30px; display: inline-block;border: 3px solid transparent; text-decoration: none !important; font-size: 16px; line-height: 16px; font-weight: 600;letter-spacing: 1px;cursor: pointer; }
-.button:hover, .button:focus { color: #2062a880 ; background:  #ffffff; border: 2px solid #2062a880 ;}
+.button { background:  #124e73 ; color: #ffffff; padding: 15px 30px; display: inline-block;border: 3px solid transparent; text-decoration: none !important; font-size: 16px; line-height: 16px; font-weight: 600;letter-spacing: 1px;cursor: pointer; }
+.button:hover, .button:focus { color: #124e73 ; background:  #ffffff; border: 2px solid #124e73 ;}
 
 /*---------------------------------------------------------------------
 8 Background  color
 -----------------------------------------------------------------------*/
 .white-bg { background: #ffffff; }
-.gray-bg { background: #ecdfdf }
+.gray-bg { background: 	#d4f1f9 }
 .main-bg { background: #2062a880 ; }
 .black-bg { background: #828286; }
 

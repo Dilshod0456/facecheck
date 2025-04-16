@@ -84,6 +84,12 @@
                 "subtitle": "Endi davomatni qo‘lda yuritish shart emas – dasturimiz buni avtomatik tarzda bajaradi. <br> Siz faqatgina natijalarni kuzatib turishingiz kifoya.",
                 "img": "images/about/06.jpg",
                 "img_alt": "Avtomatlashtirilgan davomat"
+            },
+            "card_6": {
+                "title": "Ota-onalar uchun shaffoflik",
+                "subtitle": "Ota-onalar farzandining darslardagi ishtiroki va faolligi haqida doimiy ravishda xabardor bo‘lib turadi. <br> Bu esa o‘quvchilarning mas’uliyatini oshiradi.",
+                "img": "images/about/06.jpg",
+                "img_alt": "Ota-onalar uchun shaffoflik"
             }
         }
 
