@@ -54,6 +54,7 @@ html {
     width: device-width
 }
 
+
 article,
 aside,
 figcaption,
@@ -10039,7 +10040,7 @@ a.text-dark:hover {
  .form-button {
     background: linear-gradient(135deg, #007bff, #0056b3);
     color: #fff;
-    padding: 12px 20px;
+    padding: 12px ;
     border: none;
     border-radius: 10px;
     font-size: 15px;
@@ -10058,5 +10059,11 @@ a.text-dark:hover {
  .form-button:hover {
     background: linear-gradient(135deg, #0056b3, #003f88);
     transform: scale(1.03);
+ }
+
+ .footer-butto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
  }
  
