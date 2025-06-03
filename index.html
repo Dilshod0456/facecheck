@@ -1,708 +1,2109 @@
-<!doctype html>
-<html lang="en">
-
+<!DOCTYPE html>
+<html lang="uz">
 <head>
-   <!-- Required meta tags -->
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   <title>Vizion - Al/ML - Computer vizion Responsive HTML5 Template</title>
-   <!-- Favicon -->
-   <link rel="shortcut icon" href="images/favicon.ico">
-   <!-- Bootstrap CSS -->
-   <link rel="stylesheet" href="css/bootstrap.min.css">
-   <!-- Typography CSS -->
-   <link rel="stylesheet" href="css/typography.css">
-   <!-- Style CSS -->
-   <link rel="stylesheet" href="css/style.css">
-   <!-- Responsive CSS -->
-   <link rel="stylesheet" href="css/responsive.css">
-</head>
-
-<body>
-   <!-- loading -->
-   <div id="loading">
-      <div id="loading-center" style="display: flex;">
-         <img src="images/loader.gif" alt="loder">
-      </div>
-   </div>
-   <!-- loading End -->
-   <!--=================================
-      Header -->
-   <header id="header">
-      <div class="container">
-         <div class="row align-items-center">
-            <div class="col-lg-10">
-               <nav class="navbar navbar-expand-lg navbar-light">
-                  <a class="navbar-brand" href="/">
-                     <img class="logo" src="images/logo.svg" alt="image">
-                     <p class="heder-logo">FaceCheck</p>
-                  </a>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                     <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                           <a class="nav-link active" href="/">Bosh sahifa</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" href="contact-us.html">Bog'lanish uchun</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" href="about-us.html">Biz haqimizda</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Pages
-                           </a>
-                           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="blog.html">Blog</a>
-                              <a class="dropdown-item" href="blog-details-left-sidebar.html">Blog Details Left
-                                 Sidebar</a>
-                              <a class="dropdown-item" href="blog-details-right-sidebar.html">Blog Details Right
-                                 Sidebar</a>
-                              <a class="dropdown-item" href="404-error.html">404 Error</a>
-                              <a class="dropdown-item" href="solutions.html">Solutions</a>
-                              <a class="dropdown-item" href="technology.html">Technology</a>
-                              <a class="dropdown-item" href="comingsoon.html">Coming Soon</a>
-                              <a class="dropdown-item" href="privacy-policy.html">Privacy Policy</a>
-                           </div>
-                        </li>
-                     </ul>
-                  </div>
-               </nav>
-            </div>
-            <div class="col-lg-2 text-right p-0">
-               <ul class="login">
-                  <li class="d-inline pr-3 pr-md-2"><a href="#login.html">Kirish</a></li>
-                  <li class="d-inline pl-3 pl-md-0"><a href="#register.html">Yangi hisob</a></li>
-               </ul>
-            </div>
-         </div>
-      </div>
-   </header>
-   <!--=================================
-      Header -->
-   <!--=================================
-      Banner -->
-   <div id="banner" class="banner">
-      <div class="banner-text">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-6 col-md-12 col-sm-12 align-self-center">
-                  <h1 id="title"></h1>
-                  <p class="mb-5" id="subtitle"></p>
-                  <a href="" id="button" class="button mb-lg-0 mb-5"></a>
-               </div>
-               <div class="col-lg-6 col-md-12 col-sm-12 text-right position-relative">
-                  <img id="image_2" src="" class="img-fluid banner-box" alt="">
-                  <div class="banner-img text-center">
-                     <img class="img-fluid rounded-circle position-relative" id="image_1" src="" alt="">
-                     <a id="video" href="" class="video-btn iq-video popup-youtube">
-                        <i class='ion-ios-play-outline'></i>
-                     </a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <!--=================================
-      Banner -->
-   <!--=================================
-      MAIN CONTENT -->
-   <div class="main-content">
-      <section id="our-services" class="our-services">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-12">
-                  <div class="title-box">
-                     <h2 id="title" class="title"></h2>
-                     <p id="subtitle" class="sub-title"></p>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-lg-12">
-                  <div class="carousel slides">
-                     <!-- slides -->
-                     <div class="slideList">
-                        <ul>
-                           <li id="slide_1"><img id="img_1" src="" class="img-fluid" alt="" /></li>
-                           <li id="slide_2"><img id="img_2" src="" class="img-fluid" alt="" /></li>
-                           <li id="slide_3" class="active"><img id="img_3" src="" class="img-fluid"
-                                 style="width: 80%; margin: auto;" alt="" /></li>
-                           <li id="slide_4"><img id="img_4" src="" class="img-fluid" alt="" /></li>
-                        </ul>
-                     </div>
-                     <!-- /slides -->
-                     <!-- ctrl -->
-                     <div class="carouselLinks">
-                        <span class="object-img scan"></span>
-                        <img src="images/about/02.png" class="img-fluid object-img" style="opacity: 0.2;" alt="img">
-                        <ul>
-                           <li class="text-left object-new">
-                              <a data-links-to="slide_1" class="one" href="#">
-                                 <h3 id="s1_title" class="iq-fw-8"></h3>
-                                 <p id="s1_subtitle"></p>
-                              </a>
-                           </li>
-                           <li class="object-new">
-                              <a data-links-to="slide_2" class="one" href="#">
-                                 <h3 id="s2_title" class="iq-fw-8"></h3>
-                                 <p id="s2_subtitle"></p>
-                              </a>
-                           </li>
-                           <li class="object-new selected">
-                              <a data-links-to="slide_3" class="two" href="#">
-                                 <h3 id="s3_title" class="iq-fw-8"></h3>
-                                 <p id="s3_subtitle"></p>
-                              </a>
-                           </li>
-                           <li class="object-new">
-                              <a data-links-to="slide_4" class="two" href="#">
-                                 <h3 id="s4_title" class="iq-fw-8"></h3>
-                                 <p id="s4_subtitle"></p>
-                              </a>
-                           </li>
-                        </ul>
-                     </div>
-                     <!-- /ctrl -->
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-
-      <section id="calc" class="bg-light">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-12">
-                  <div class="title-box">
-                     <h2 id="title" class="title"></h2>
-                     <p id="subtitle" class="sub-title"> </p>
-                  </div>
-               </div>
-            </div>
-            <div class="calculator-container">
-               <!-- Chap tomon: Inputlar -->
-               <div class="input-section">
-                  <h2 id="inputSectionTitle" class="section-title"></h2>
-                  <form id="calcForm" class="calc-form">
-                     <div class="form-group">
-                        <label id="labelAvgSalary" for="avgSalary"></label>
-                        <input type="text" id="avgSalary" placeholder="5,000,000" required>
-                     </div>
-                     <div class="form-group">
-                        <label id="labelLessonCount" for="lessonCount"></label>
-                        <input type="text" id="lessonCount" placeholder="20" required>
-                     </div>
-                     <div class="form-group">
-                        <label id="labelLessonDuration" for="lessonDuration"></label>
-                        <input type="text" id="lessonDuration" placeholder="60" required>
-                     </div>
-                     <div class="form-group">
-                        <label id="labelAttendanceTime" for="attendanceTime"></label>
-                        <input type="text" id="attendanceTime" placeholder="5" required>
-                     </div>
-                     <div class="form-group">
-                        <label id="labelEmployeeCount" for="employeeCount"></label>
-                        <input type="text" id="employeeCount" placeholder="10" required>
-                     </div>
-                  </form>
-               </div>
-
-               <!-- O‘ng tomon: Natijalar -->
-               <div class="result-section">
-                  <h2 id="resultSectionTitle" class="section-title"></h2>
-                  <div id="results" class="results">
-                     <p><strong id="resultMinuteSalaryLabel"></strong> <span id="minuteSalary">0 so‘m</span></p>
-                     <p><strong id="resultAttendanceSalaryLabel"></strong> <span id="attendanceSalary">0 so‘m</span></p>
-                     <p><strong id="resultMonthlyAttendanceSalaryLabel"></strong> <span id="monthlyAttendanceSalary">0
-                           so‘m</span></p>
-                     <p><strong id="resultTotalSalaryLabel"></strong> <span id="totalSalary">0 so‘m</span>
-                     </p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-
-      <section id="our-feature" class="our-features bg-over-main-90 position-relative iq-special-1">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-12">
-                  <div class="title-box">
-                     <h2 id="title" class="title text-white"></h2>
-                     <p id="subtitle" class="sub-title text-white"></p>
-                  </div>
-               </div>
-            </div>
-            <img id="bg-img" src="" alt="Banner rasm">
-            <div class="row" style="justify-content: space-between;">
-               <div id="goals" class="col-lg-4 col-md-6 col-sm-12">
-                  <div class="grid  mb-4 d-inline-block position-relative bg-over-black-70">
-                     <figure class="effect-chico">
-                        <img id="img" src="" alt="" />
-                        <figcaption>
-                           <h2 id="title"></h2>
-                           <p id="subtitle"></p>
-                        </figcaption>
-                     </figure>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-
-      <section class="our-customer">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-12">
-                  <div class="title-box">
-                     <h2 class="title">Happy Customers</h2>
-                     <p class="sub-title">The point of using Lorem Ipsum</p>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-lg-6 position-relative main-customer">
-                  <div class="customer-box">
-                     <div class="customer-detail mb-4">
-                        <div class="float-left">
-                           <h4 class="font-weight-bold"><a href="">John Deo</a></h4>
-                           <h6 class="text-gray font-weight-bold"><a href="">CEO - VIZION</a></h6>
-                        </div>
-                        <div class="iq-star float-right">
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star-half-alt"></i>
-                        </div>
-                        <div class="clearfix"></div>
-                     </div>
-                     <p class="iq-fw-600">The point of using Lorem Ipsum is that it has a more-or-less normal
-                        distribution of letters, as opposed to using 'Content here, content here', making it look like
-                        readable English.</p>
-                     <div class="customer-img">
-                        <img src="images/clients/01.jpg" class="img-fluid rounded-circle" alt="images">
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-6 position-relative main-customer mt-5 mt-lg-0">
-                  <div class="customer-box">
-                     <div class="customer-detail mb-4">
-                        <div class="float-left">
-                           <h4 class="font-weight-bold"><a href="">John Deo</a></h4>
-                           <h6 class="text-gray font-weight-bold"><a href="">CEO - VIZION</a></h6>
-                        </div>
-                        <div class="iq-star float-right">
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star-half-alt"></i>
-                        </div>
-                        <div class="clearfix"></div>
-                     </div>
-                     <p class="iq-fw-600">The point of using Lorem Ipsum is that it has a more-or-less normal
-                        distribution of letters, as opposed to using 'Content here, content here', making it look like
-                        readable English.</p>
-                     <div class="customer-img">
-                        <img src="images/clients/02.jpg" class="img-fluid rounded-circle" alt="images">
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-6 position-relative main-customer mb-lg-0 mt-5">
-                  <div class="customer-box">
-                     <div class="customer-detail mb-4">
-                        <div class="float-left">
-                           <h4 class="font-weight-bold"><a href="">John Deo</a></h4>
-                           <h6 class="text-gray font-weight-bold"><a href="">CEO - VIZION</a></h6>
-                        </div>
-                        <div class="iq-star float-right">
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star-half-alt"></i>
-                        </div>
-                        <div class="clearfix"></div>
-                     </div>
-                     <p class="iq-fw-600">The point of using Lorem Ipsum is that it has a more-or-less normal
-                        distribution of letters, as opposed to using 'Content here, content here', making it look like
-                        readable English.</p>
-                     <div class="customer-img">
-                        <img src="images/clients/03.jpg" class="img-fluid rounded-circle" alt="images">
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-6 position-relative main-customer mb-lg-0 mt-5">
-                  <div class="customer-box">
-                     <div class="customer-detail mb-4">
-                        <div class="float-left">
-                           <h4 class="font-weight-bold"><a href="">John Deo</a></h4>
-                           <h6 class="text-gray font-weight-bold"><a href="">CEO - VIZION</a></h6>
-                        </div>
-                        <div class="iq-star float-right">
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star-half-alt"></i>
-                        </div>
-                        <div class="clearfix"></div>
-                     </div>
-                     <p class="iq-fw-600">The point of using Lorem Ipsum is that it has a more-or-less normal
-                        distribution of letters, as opposed to using 'Content here, content here', making it look like
-                        readable English.</p>
-                     <div class="customer-img">
-                        <img src="images/clients/04.jpg" class="img-fluid rounded-circle" alt="images">
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-
-      <section class="our-partners bg-light">
-         <div class="container">
-            <div class="row justify-content-between">
-               <div class="col-lg-5 col-sm-12">
-                  <h2 class="font-weight-bold">Trusted by Partners</h2>
-                  <h5 class="mb-5">The point of using Lorem Ipsum</h5>
-                  <div class="row">
-                     <div class="col-lg-4 col-md-4 col-sm-6 col-6">
-                        <a href=""><img src="images/clients/gray/01.png" class="img-fluid partners-img" alt="img"></a>
-                     </div>
-                     <div class="col-lg-4 col-md-4 col-sm-6 col-6">
-                        <a href=""><img src="images/clients/gray/02.png" class="img-fluid partners-img" alt="img"></a>
-                     </div>
-                     <div class="col-lg-4 col-md-4 col-sm-6 col-6">
-                        <a href=""><img src="images/clients/gray/03.png" class="img-fluid partners-img" alt="img"></a>
-                     </div>
-                     <div class="col-lg-4 col-md-4 col-sm-6 col-6">
-                        <a href=""><img src="images/clients/gray/04.png" class="img-fluid partners-img" alt="img"></a>
-                     </div>
-                     <div class="col-lg-4 col-md-4 col-sm-6 col-6">
-                        <a href=""><img src="images/clients/gray/05.png" class="img-fluid partners-img" alt="img"></a>
-                     </div>
-                     <div class="col-lg-4 col-md-4 col-sm-6 col-6">
-                        <a href=""><img src="images/clients/gray/06.png" class="img-fluid partners-img" alt="img"></a>
-                     </div>
-                     <div class="col-lg-4 col-md-4 col-sm-6 col-6 mb-lg-0">
-                        <a href=""><img src="images/clients/gray/07.png" class="img-fluid partners-img" alt="img"></a>
-                     </div>
-                     <div class="col-lg-4 col-md-4 col-sm-6 col-6 mb-lg-0">
-                        <a href=""><img src="images/clients/gray/08.png" class="img-fluid partners-img" alt="img"></a>
-                     </div>
-                     <div class="col-lg-4 col-md-4 col-sm-6 col-6 mb-lg-0">
-                        <a href=""><img src="images/clients/gray/09.png" class="img-fluid partners-img" alt="img"></a>
-                     </div>
-                     <div class="col-lg-4 col-md-4 col-sm-6 col-6">
-                        <a href=""><img src="images/clients/gray/01.png" class="img-fluid partners-img" alt="img"></a>
-                     </div>
-                     <div class="col-lg-4 col-md-4 col-sm-6 col-6">
-                        <a href=""><img src="images/clients/gray/02.png" class="img-fluid partners-img" alt="img"></a>
-                     </div>
-                     <div class="col-lg-4 col-md-4 col-sm-6 col-6">
-                        <a href=""><img src="images/clients/gray/03.png" class="img-fluid partners-img" alt="img"></a>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-6 col-sm-12">
-                  <h2 class="font-weight-bold ml-4">Latest Blog</h2>
-                  <h5 class="mb-5 ml-4">The point of using Lorem Ipsum</h5>
-                  <div class="row">
-                     <div class="col-lg-12">
-                        <div class="owl-carousel arrow" data-autoplay="" data-loop="true" data-nav="true"
-                           data-dots="false" data-items="1" data-items-laptop="1" data-items-tab="1"
-                           data-items-mobile="1" data-items-mobile-sm="1" data-margin="30">
-                           <div class="item">
-                              <div class="blogs-box">
-                                 <img src="images/about/02.jpg" class="img-fluid" alt="img">
-                                 <div class="blog-main">
-                                    <div class="blog-info mb-4 ">
-                                       <a href=""><img src="images/blog/clients/01.jpg"
-                                             class="img-fluid rounded-circle mr-3 user-img" alt="image"><span
-                                             class="iq-fw-7 text-black iq-font-18">John Deo</span></a>
-                                       <ul class="d-inline-block float-right mb-3">
-                                          <li class="d-inline-block"><a href="#"><i class="far fa-thumbs-up"></i> <span
-                                                   class="text-black iq-fw-7 iq-font-14">90</span></a></li>
-                                          <li class="d-inline-block ml-3"><a href="#"><i class="far fa-comment-alt"></i>
-                                                <span class="text-black iq-fw-7 iq-font-14">120</span></a></li>
-                                       </ul>
-                                       <div class="clear-fix"></div>
-                                    </div>
-                                    <div class="blog-detail">
-                                       <a href="blog.html">
-                                          <h4>The point of using Lorem Ipsum is that </h4>
-                                       </a>
-                                       <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as
-                                          their default model text.</p>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="item">
-                              <div class="blogs-box">
-                                 <img src="images/blog/01.jpg" class="img-fluid" alt="img_test">
-                                 <div class="blog-main">
-                                    <div class="blog-info mb-4 ">
-                                       <a href=""><img src="images/blog/01.jpg"
-                                             class="img-fluid rounded-circle mr-3 user-img" alt="image"><span
-                                             class="iq-fw-7 text-black iq-font-18">John Deo</span></a>
-                                       <ul class="d-inline-block float-right mb-3">
-                                          <li class="d-inline-block"><a href="#"><i class="far fa-thumbs-up"></i> <span
-                                                   class="text-black iq-fw-7 iq-font-14">90</span></a></li>
-                                          <li class="d-inline-block ml-3"><a href="#"><i class="far fa-comment-alt"></i>
-                                                <span class="text-black iq-fw-7 iq-font-14">120</span></a></li>
-                                       </ul>
-                                       <div class="clear-fix"></div>
-                                    </div>
-                                    <div class="blog-detail">
-                                       <a href="blog.html">
-                                          <h4>The point of using Lorem Ipsum is that </h4>
-                                       </a>
-                                       <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as
-                                          their default model text.</p>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-   </div>
-   <!--=================================
-      MAIN CONTENT -->
-   <!--=================================
-      Footer -->
-   <footer class="gray-bg">
-      <div class="container">
-         <div class="footer-top">
-            <div class="row">
-               <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
-                  <h4 class="iq-fw-7 mb-3">Company</h4>
-                  <ul class="d-block">
-                     <li class="d-block  iq-fw-6 mb-2"><a href="index.html" class="text-gray">Home</a></li>
-                     <li class="d-block  iq-fw-6 mb-2"><a href="about-us.html" class="text-gray">About</a></li>
-                     <li class="d-block  iq-fw-6 mb-2"><a href="" class="text-gray">Pages</a></li>
-                     <li class="d-block  iq-fw-6 mb-2"><a href="" class="text-gray">Services</a></li>
-                     <li class="d-block  iq-fw-6"><a href="blog.html" class="text-gray">Blog</a></li>
-                  </ul>
-               </div>
-               <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
-                  <h4 class="iq-fw-7 mb-3">Products</h4>
-                  <ul class="d-block">
-                     <li class="d-block  iq-fw-6 mb-2"><a href="" class="text-gray">Integration</a></li>
-                     <li class="d-block  iq-fw-6 mb-2"><a href="" class="text-gray">Pricing</a></li>
-                     <li class="d-block  iq-fw-6 mb-2"><a href="" class="text-gray">API</a></li>
-                     <li class="d-block  iq-fw-6 mb-2"><a href="" class="text-gray">Documentation</a></li>
-                     <li class="d-block  iq-fw-6"><a href="" class="text-gray">Release Notes</a></li>
-                  </ul>
-               </div>
-               <div class="col-lg-2 col-md-6 mb-5 mb-lg-0 mb-md-0">
-                  <h4 class="iq-fw-7 mb-3">Help</h4>
-                  <ul class="d-block">
-                     <li class="d-block  iq-fw-6 mb-2"><a href="" class="text-gray">Support</a></li>
-                     <li class="d-block  iq-fw-6 mb-2"><a href="" class="text-gray">Faq's</a></li>
-                     <li class="d-block  iq-fw-6 mb-2"><a href="contact-us.html" class="text-gray">Contact Us</a></li>
-                  </ul>
-               </div>
-               <div class="col-lg-6 col-md-6">
-                  <h4 class="iq-fw-7 mb-4">Subscribe for Newsletter</h4>
-                  <form>
-                     <input type="email" name="" placeholder="Enter Email"
-                        class="subscription-email position-relative form-control d-inline-block">
-                     <a href="" class="button subscription-button">Sing Up</a>
-                  </form>
-                  <ul class="list-inline mb-5">
-                     <li class="list-inline-item iq-fw-6 text-black"><i class="fas fa-phone"></i><span
-                           class="ml-2 text-gray">0 123 456 789</span></li>
-                     <li class="list-inline-item ml-3 iq-fw-6 text-black"><i class="fas fa-envelope-open-text"></i><span
-                           class="ml-2 text-gray">xyz@gmail.com</span></li>
-                  </ul>
-                  <ul class="list-inline">
-                     <li class="list-inline-item iq-fw-6 mr-3"><a href="" class="text-gray"><i
-                              class="fab fa-facebook-f"></i></a></li>
-                     <li class="list-inline-item iq-fw-6 mr-3"><a href="" class="text-gray"><i
-                              class="fab fa-twitter"></i></li>
-                     <li class="list-inline-item iq-fw-6"><a href="" class="text-gray"><i class="fab fa-linkedin"></i>
-                     </li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-         <div class="footer-bottom">
-            <div class="row">
-               <div class="col-auto mr-auto">
-                  <ul class="list-inline">
-                     <li class="list-inline-item mr-3 r-font-12"><a href="#" class="text-gray iq-fw-6">Terms &
-                           Conditions</a></li>
-                     <li class="list-inline-item r-font-12"><a href="privacy-policy.html"
-                           class="text-gray iq-fw-6">Privacy Policy</a></li>
-                  </ul>
-               </div>
-               <div class="col-auto r-font-12"><a href="" class="text-gray iq-fw-6">Vizion All rights reserved 2019</a>
-               </div>
-            </div>
-         </div>
-         <!-- back-to-top -->
-         <div id="back-to-top">
-            <a class="top" id="top" href="#top"> <i class="ion-ios-upload-outline"></i> </a>
-         </div>
-         <!-- back-to-top End -->
-   </footer>
-   <!-- Optional JavaScript -->
-   <script>
-      // JSON faylni yuklash
-      fetch("texts.json")
-         .then(response => response.json()) // JSON formatga o‘girish
-         .then(data => {
-            for (const section in data) {
-               const sectionElement = document.getElementById(section);
-               if (!sectionElement) continue;
-
-               for (const key in data[section]) {
-                  const element = sectionElement.querySelector(`#${key}`);
-                  if (!element) continue;
-
-                  // Agar qiymat obyekt bo‘lsa (masalan, "goals")
-                  if (typeof data[section][key] === "object" && !element.tagName.match(/^(IMG|A)$/)) {
-                     const subData = data[section][key]; // Ichki obyekt (masalan, "goals")
-                     const parentContainer = element.parentElement; // .row konteyneri
-                     let templateElement = element.cloneNode(true); // #goals ni klonlash
-                     element.remove(); // Asl elementni o‘chirish
-
-                     // Har bir ichki obyekt uchun yangi element yaratish
-                     for (const subKey in subData) {
-                        const newElement = templateElement.cloneNode(true); // Yangi nusxa
-
-                        // Ichki elementlarni yangilash
-                        for (const innerKey in subData[subKey]) {
-                           const innerElement = newElement.querySelector(`#${innerKey}`);
-                           if (innerElement) {
-                              if (innerElement.tagName === "IMG") {
-                                 innerElement.src = subData[subKey][innerKey];
-                                 innerElement.alt = subData[subKey][innerKey + "_alt"] || "not found alt";
-                              } else {
-                                 innerElement.innerHTML = subData[subKey][innerKey];
-                              }
-                           }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaceChek - AI asosida davomat va nazorat tizimi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'sans': ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: {
+                            50: '#eff6ff',
+                            100: '#dbeafe',
+                            200: '#bfdbfe',
+                            300: '#93c5fd',
+                            400: '#60a5fa',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                            800: '#1e40af',
+                            900: '#1e3a8a'
+                        },
+                        accent: {
+                            400: '#fbbf24',
+                            500: '#f59e0b',
+                            600: '#d97706'
+                        },
+                        success: {
+                            500: '#10b981',
+                            600: '#059669'
+                        },
+                        purple: {
+                            500: '#8b5cf6',
+                            600: '#7c3aed'
                         }
-                        parentContainer.appendChild(newElement); // .row ga qo‘shish
-                     }
-                  } 
-                  // Oddiy qiymatlar uchun
-                  else {
-                     if (element.tagName === "IMG") {
-                        element.src = data[section][key];
-                        element.alt = data[section][key + "_alt"] || "not found alt";
-                     } else if (element.tagName === "A") {
-                        element.href = data[section][key + "_href"] || "#";
-                        if (data[section][key]) element.innerHTML = data[section][key];
-                     } else {
-                        element.innerHTML = data[section][key];
-                     }
-                  }
-               }
+                    },
+                    animation: {
+                        'fade-in-up': 'fadeInUp 0.8s ease-out',
+                        'fade-in-down': 'fadeInDown 0.8s ease-out',
+                        'fade-in-left': 'fadeInLeft 0.8s ease-out',
+                        'fade-in-right': 'fadeInRight 0.8s ease-out',
+                        'bounce-slow': 'bounce 3s infinite',
+                        'pulse-slow': 'pulse 4s infinite',
+                        'float': 'float 6s ease-in-out infinite',
+                        'glow': 'glow 2s ease-in-out infinite alternate',
+                        'spin-slow': 'spin 3s linear infinite'
+                    },
+                    backdropBlur: {
+                        xs: '2px',
+                    }
+                }
             }
-         })
-         .catch(error => console.error("JSON yuklashda xatolik:", error));
-   
-      // Raqamlarni 3 tadan ajratish uchun funksiya
-      function formatNumber(number) {
-         return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-      }
+        }
+    </script>
+    <style>
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes fadeInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        @keyframes fadeInRight {
+            from {
+                opacity: 0;
+                transform: translateX(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        @keyframes glow {
+            from { box-shadow: 0 0 20px rgba(59, 130, 246, 0.5); }
+            to { box-shadow: 0 0 30px rgba(59, 130, 246, 0.8); }
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6, #f59e0b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .glass-dark {
+            background: rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .hero-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-10px) scale(1.02);
+        }
+        .number-counter {
+            font-variant-numeric: tabular-nums;
+        }
+    </style>
+</head>
+<body class="font-sans bg-white overflow-x-hidden">
+    <!-- Enhanced Navigation -->
+    <nav class="fixed w-full z-50 transition-all duration-300" id="navbar">
+        <div class="glass-effect border-b border-white/10">
+            <div class="container mx-auto px-4">
+                <div class="flex items-center justify-between h-20">
+                    <!-- Logo Section -->
+                    <div class="flex items-center space-x-4">
+                        <div class="relative">
+                            <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center ">
+                                <img class="w-12" src="images/logo.svg" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <span class="text-2xl font-black text-white">FaceChek</span>
+                            <div class="text-xs text-white/70 font-medium">AI Davomat Tizimi</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Desktop Navigation -->
+                    <div class="hidden lg:flex items-center space-x-8">
+                        <div class="flex items-center space-x-6">
+                            <a href="#home" class="nav-link text-white/90 hover:text-white transition-colors font-medium">Bosh sahifa</a>
+                            <div class="relative group">
+                                <button class="nav-link text-white/90 hover:text-white transition-colors font-medium flex items-center">
+                                    Mahsulot <i class="fas fa-chevron-down ml-1 text-xs"></i>
+                                </button>
+                                <div class="absolute top-full left-0 mt-2 w-64 glass-effect rounded-2xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
+                                    <div class="p-4 space-y-3">
+                                        <a href="#features" class="block p-3 rounded-lg hover:bg-white/10 transition-colors">
+                                            <div class="flex items-center space-x-3">
+                                                <i class="fas fa-robot text-primary-400"></i>
+                                                <div>
+                                                    <div class="text-white font-medium">AI Xususiyatlari</div>
+                                                    <div class="text-white/60 text-xs">Yuz tanish texnologiyasi</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#integrations" class="block p-3 rounded-lg hover:bg-white/10 transition-colors">
+                                            <div class="flex items-center space-x-3">
+                                                <i class="fas fa-plug text-success-400"></i>
+                                                <div>
+                                                    <div class="text-white font-medium">Integratsiyalar</div>
+                                                    <div class="text-white/60 text-xs">Telegram, SMS, Email</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#analytics" class="block p-3 rounded-lg hover:bg-white/10 transition-colors">
+                                            <div class="flex items-center space-x-3">
+                                                <i class="fas fa-chart-bar text-accent-400"></i>
+                                                <div>
+                                                    <div class="text-white font-medium">Analitika</div>
+                                                    <div class="text-white/60 text-xs">Hisobotlar va statistika</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="relative group">
+                                <button class="nav-link text-white/90 hover:text-white transition-colors font-medium flex items-center">
+                                    Yechimlar <i class="fas fa-chevron-down ml-1 text-xs"></i>
+                                </button>
+                                <div class="absolute top-full left-0 mt-2 w-72 glass-effect rounded-2xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
+                                    <div class="p-4 space-y-3">
+                                        <a href="#schools" class="block p-3 rounded-lg hover:bg-white/10 transition-colors">
+                                            <div class="flex items-center space-x-3">
+                                                <i class="fas fa-school text-primary-400"></i>
+                                                <div>
+                                                    <div class="text-white font-medium">Maktablar uchun</div>
+                                                    <div class="text-white/60 text-xs">O'quvchilar davomat nazorati</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#universities" class="block p-3 rounded-lg hover:bg-white/10 transition-colors">
+                                            <div class="flex items-center space-x-3">
+                                                <i class="fas fa-university text-purple-400"></i>
+                                                <div>
+                                                    <div class="text-white font-medium">Universitetlar uchun</div>
+                                                    <div class="text-white/60 text-xs">Talabalar va professor-o'qituvchilar</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#corporate" class="block p-3 rounded-lg hover:bg-white/10 transition-colors">
+                                            <div class="flex items-center space-x-3">
+                                                <i class="fas fa-building text-success-400"></i>
+                                                <div>
+                                                    <div class="text-white font-medium">Korporativ</div>
+                                                    <div class="text-white/60 text-xs">Xodimlar uchun davomat tizimi</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#calculator" class="nav-link text-white/90 hover:text-white transition-colors font-medium">Kalkulyator</a>
+                            <a href="#pricing" class="nav-link text-white/90 hover:text-white transition-colors font-medium">Narxlar</a>
+                            <a href="#support" class="nav-link text-white/90 hover:text-white transition-colors font-medium">Qo'llab-quvvatlash</a>
+                        </div>
+                    </div>
 
-      // Input qiymatini formatlash
-      function formatInput(input) {
-         let value = input.value.replace(/[^0-9]/g, ""); // Faqat raqamlarni qoldirish
-         if (value) {
-            input.value = formatNumber(value);
-         }
-      }
+                    <!-- CTA Buttons -->
+                    <div class="hidden lg:flex items-center space-x-4">
+                        <button class="text-white/90 hover:text-white font-medium transition-colors">
+                            <i class="fas fa-sign-in-alt mr-2"></i>Kirish
+                        </button>
+                        <button class="bg-white/20 hover:bg-white/30 text-white px-6 py-3 rounded-xl font-semibold transition-all backdrop-blur-sm border border-white/20">
+                            <i class="fas fa-play mr-2"></i>Demo ko'rish
+                        </button>
+                        <button class="bg-gradient-to-r from-accent-500 to-accent-600 hover:from-accent-600 hover:to-accent-700 text-white px-6 py-3 rounded-xl font-semibold transition-all shadow-lg hover:shadow-xl transform hover:scale-105">
+                            <i class="fas fa-rocket mr-2"></i>Bepul sinash
+                        </button>
+                    </div>
 
-      // Sof raqamni olish
-      function getRawValue(input) {
-         return parseFloat(input.value.replace(/,/g, "")) || 0;
-      }
+                    <!-- Mobile Menu Button -->
+                    <button class="lg:hidden text-white p-2" onclick="toggleMobileMenu()">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
 
-      // Hisoblash funksiyasi
-      function calculate() {
-         const avgSalary = getRawValue(document.getElementById('avgSalary'));
-         const lessonCount = getRawValue(document.getElementById('lessonCount'));
-         const lessonDuration = getRawValue(document.getElementById('lessonDuration'));
-         const attendanceTime = getRawValue(document.getElementById('attendanceTime'));
-         const employeeCount = getRawValue(document.getElementById('employeeCount'));
+                <!-- Enhanced Mobile Menu -->
+                <div id="mobileMenu" class="lg:hidden hidden">
+                    <div class="glass-dark rounded-2xl m-4 p-6">
+                        <div class="space-y-4">
+                            <a href="#home" class="block text-white hover:text-primary-300 transition-colors py-2 border-b border-white/10">
+                                <i class="fas fa-home mr-3"></i>Bosh sahifa
+                            </a>
+                            <div class="space-y-2">
+                                <div class="text-white/70 text-sm font-semibold uppercase tracking-wider">Mahsulot</div>
+                                <a href="#features" class="block text-white/80 hover:text-white transition-colors py-2 pl-4">
+                                    <i class="fas fa-robot mr-3"></i>AI Xususiyatlari
+                                </a>
+                                <a href="#integrations" class="block text-white/80 hover:text-white transition-colors py-2 pl-4">
+                                    <i class="fas fa-plug mr-3"></i>Integratsiyalar
+                                </a>
+                                <a href="#analytics" class="block text-white/80 hover:text-white transition-colors py-2 pl-4">
+                                    <i class="fas fa-chart-bar mr-3"></i>Analitika
+                                </a>
+                            </div>
+                            <div class="space-y-2">
+                                <div class="text-white/70 text-sm font-semibold uppercase tracking-wider">Yechimlar</div>
+                                <a href="#schools" class="block text-white/80 hover:text-white transition-colors py-2 pl-4">
+                                    <i class="fas fa-school mr-3"></i>Maktablar
+                                </a>
+                                <a href="#universities" class="block text-white/80 hover:text-white transition-colors py-2 pl-4">
+                                    <i class="fas fa-university mr-3"></i>Universitetlar
+                                </a>
+                                <a href="#corporate" class="block text-white/80 hover:text-white transition-colors py-2 pl-4">
+                                    <i class="fas fa-building mr-3"></i>Korporativ
+                                </a>
+                            </div>
+                            <a href="#calculator" class="block text-white hover:text-primary-300 transition-colors py-2 border-b border-white/10">
+                                <i class="fas fa-calculator mr-3"></i>Kalkulyator
+                            </a>
+                            <a href="#pricing" class="block text-white hover:text-primary-300 transition-colors py-2 border-b border-white/10">
+                                <i class="fas fa-tags mr-3"></i>Narxlar
+                            </a>
+                            <a href="#support" class="block text-white hover:text-primary-300 transition-colors py-2 border-b border-white/10">
+                                <i class="fas fa-headset mr-3"></i>Qo'llab-quvvatlash
+                            </a>
+                            <div class="pt-4 space-y-3">
+                                <button class="w-full text-white border border-white/30 py-3 rounded-xl font-medium transition-colors hover:bg-white/10">
+                                    <i class="fas fa-sign-in-alt mr-2"></i>Kirish
+                                </button>
+                                <button class="w-full bg-gradient-to-r from-primary-500 to-purple-500 text-white py-3 rounded-xl font-semibold">
+                                    <i class="fas fa-rocket mr-2"></i>Bepul sinash
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
 
-         const totalMinutesPerMonth = lessonCount * lessonDuration;
-         const minuteSalary = totalMinutesPerMonth ? avgSalary / totalMinutesPerMonth : 0;
-         const attendanceSalaryPerLesson = minuteSalary * attendanceTime;
-         const monthlyAttendanceSalary = attendanceSalaryPerLesson * lessonCount;
-         const totalSalary = monthlyAttendanceSalary * employeeCount;
+    <!-- Enhanced Hero Section -->
+    <section id="home" class="min-h-screen flex items-center relative overflow-hidden hero-bg">
+        <!-- Animated Background Elements -->
+        <div class="absolute inset-0">
+            <div class="absolute top-20 left-10 w-72 h-72 bg-white/10 rounded-full blur-3xl animate-float"></div>
+            <div class="absolute top-40 right-20 w-96 h-96 bg-primary-500/20 rounded-full blur-3xl animate-float" style="animation-delay: -2s;"></div>
+            <div class="absolute bottom-20 left-1/3 w-80 h-80 bg-purple-500/20 rounded-full blur-3xl animate-float" style="animation-delay: -4s;"></div>
+        </div>
 
-         document.getElementById('minuteSalary').textContent = formatNumber(minuteSalary.toFixed(2)) + " so‘m";
-         document.getElementById('attendanceSalary').textContent = formatNumber(attendanceSalaryPerLesson.toFixed(2)) + " so‘m";
-         document.getElementById('monthlyAttendanceSalary').textContent = formatNumber(monthlyAttendanceSalary.toFixed(2)) + " so‘m";
-         document.getElementById('totalSalary').textContent = formatNumber(totalSalary.toFixed(2)) + " so‘m";
-      }
+        <div class="container mx-auto px-4 relative z-10 pt-20">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div class="space-y-8 animate-fade-in-left">
+                    <!-- Badge -->
+                    <div class="inline-flex items-center px-6 py-3 glass-effect rounded-full text-white border border-white/20">
+                        <div class="w-2 h-2 bg-success-500 rounded-full mr-3 animate-pulse"></div>
+                        <span class="text-sm font-medium">AI asosida ishlaydigan tizim</span>
+                        <i class="fas fa-sparkles ml-2 text-accent-400"></i>
+                    </div>
 
-      // Inputlarni boshqarish
-      const inputs = document.querySelectorAll('#calcForm input');
-      inputs.forEach(input => {
-         input.addEventListener('input', function () {
-            const cursorPosition = this.selectionStart; // Kursor pozitsiyasini saqlash
-            const oldLength = this.value.length; // Oldingi uzunlik
+                    <!-- Main Heading -->
+                    <div class="space-y-6">
+                        <h1 class="text-5xl lg:text-7xl font-black text-white leading-tight">
+                            <span class="block">Kelajak</span>
+                            <span class="gradient-text block">Davomat</span>
+                            <span class="block">Tizimi</span>
+                        </h1>
+                        <p class="text-xl lg:text-2xl text-white/80 leading-relaxed max-w-2xl">
+                            Sun'iy intellekt va yuz tanish texnologiyasi orqali ta'lim muassasalarida 
+                            <span class="text-accent-400 font-semibold">avtomatik davomat nazorati</span>, 
+                            real vaqt hisobotlar va ota-onalar bilan shaffof muloqot.
+                        </p>
+                    </div>
+                    
+                    <!-- CTA Buttons -->
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button class="group bg-white text-primary-600 hover:bg-gray-100 px-8 py-4 rounded-2xl font-bold text-lg transition-all transform hover:scale-105 shadow-2xl hover:shadow-3xl flex items-center justify-center">
+                            <i class="fas fa-rocket mr-3 group-hover:animate-bounce"></i>
+                            Bepul sinab ko'ring
+                            <i class="fas fa-arrow-right ml-3 group-hover:translate-x-1 transition-transform"></i>
+                        </button>
+                        <button class="group glass-effect border border-white/30 text-white hover:bg-white/10 px-8 py-4 rounded-2xl font-bold text-lg transition-all flex items-center justify-center">
+                            <i class="fas fa-play mr-3"></i>
+                            Demo video
+                            <span class="ml-3 text-sm bg-white/20 px-2 py-1 rounded-full">2:30</span>
+                        </button>
+                    </div>
 
-            formatInput(this); // Formatlash
-            calculate(); // Hisoblash
+                    <!-- Stats -->
+                    <div class="grid grid-cols-3 gap-8 pt-8">
+                        <div class="text-center">
+                            <div class="text-3xl lg:text-4xl font-black text-white number-counter" data-target="99.8">0</div>
+                            <div class="text-white/70 font-medium">% Aniqlik</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl lg:text-4xl font-black text-white number-counter" data-target="500">0</div>
+                            <div class="text-white/70 font-medium">+ Muassasa</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl lg:text-4xl font-black text-white number-counter" data-target="50">0</div>
+                            <div class="text-white/70 font-medium">K+ Foydalanuvchi</div>
+                        </div>
+                    </div>
 
-            // Kursor pozitsiyasini tiklash
-            const newLength = this.value.length;
-            const newPosition = cursorPosition + (newLength - oldLength);
-            this.setSelectionRange(newPosition, newPosition);
-         });
+                    <!-- Trust Indicators -->
+                    <div class="flex flex-wrap items-center gap-6 pt-4">
+                        <div class="flex items-center space-x-2">
+                            <i class="fas fa-shield-check text-success-400"></i>
+                            <span class="text-white/80 text-sm">ISO 27001 sertifikati</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <i class="fas fa-lock text-success-400"></i>
+                            <span class="text-white/80 text-sm">GDPR mos</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <i class="fas fa-award text-accent-400"></i>
+                            <span class="text-white/80 text-sm">AI Innovation Award</span>
+                        </div>
+                    </div>
+                </div>
 
-         // Fokusda bo‘sh inputni tozalamasa ham ishlaydi
-         input.addEventListener('focus', function () {
-            if (!this.value) this.value = "";
-         });
-      });
+                <!-- Enhanced Hero Visual -->
+                <div class="relative animate-fade-in-right">
+                    <!-- Main Dashboard Mockup -->
+                    <div class="relative z-10">
+                        <div class="glass-effect rounded-3xl p-8 transform rotate-3 hover:rotate-0 transition-transform duration-700 shadow-2xl">
+                            <!-- Dashboard Header -->
+                            <div class="flex items-center justify-between mb-6">
+                                <div class="flex items-center space-x-3">
+                                    <div class="w-3 h-3 bg-red-500 rounded-full"></div>
+                                    <div class="w-3 h-3 bg-yellow-500 rounded-full"></div>
+                                    <div class="w-3 h-3 bg-green-500 rounded-full"></div>
+                                </div>
+                                <div class="text-white/80 text-sm font-medium">FaceChek Dashboard</div>
+                            </div>
 
-      // Dastlabki hisoblash
-      calculate();
-   </script>
-   <!-- Flowbite JS (agar interaktivlik kerak bo‘lsa) -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
-   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-   <script src="js/jquery-3.3.1.min.js"></script>
-   <!-- popper-->
-   <script src="js/popper.min.js"></script>
-   <!-- bootstrap -->
-   <script src="js/bootstrap.min.js"></script>
-   <!-- Owl Carousel -->
-   <script src="js/owl.carousel.min.js"></script>
-   <!-- slick -->
-   <script src="js/slick.min.js"></script>
-   <!-- Magnific Popup js-->
-   <script src="js/jquery.magnific-popup.min.js"></script>
-   <!-- jquery countdown -->
-   <script src="js/countdown.js"></script>
-   <!-- swiper -->
-   <script src="js/swiper.min.js"></script>
-   <!-- Wow -->
-   <script src="js/wow.min.js"></script>
-   <!-- Custom -->
-   <script src="js/custom.js"></script>
+                            <!-- Live Attendance Feed -->
+                            <div class="space-y-4">
+                                <div class="flex items-center justify-between">
+                                    <h3 class="text-white font-bold text-lg">Jonli davomat</h3>
+                                    <div class="flex items-center space-x-2">
+                                        <div class="w-2 h-2 bg-success-500 rounded-full animate-pulse"></div>
+                                        <span class="text-success-400 text-sm font-medium">LIVE</span>
+                                    </div>
+                                </div>
+
+                                <!-- Attendance Items -->
+                                <div class="space-y-3">
+                                    <div class="flex items-center space-x-4 p-3 bg-white/10 rounded-xl animate-fade-in-up">
+                                        <div class="w-10 h-10 bg-gradient-to-r from-green-400 to-green-500 rounded-full flex items-center justify-center">
+                                            <i class="fas fa-check text-white text-sm"></i>
+                                        </div>
+                                        <div class="flex-1">
+                                            <div class="text-white font-medium">Alisher Karimov</div>
+                                            <div class="text-white/60 text-sm">10-A sinf</div>
+                                        </div>
+                                        <div class="text-right">
+                                            <div class="text-success-400 font-bold">08:15</div>
+                                            <div class="text-white/60 text-xs">Vaqtida</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex items-center space-x-4 p-3 bg-white/10 rounded-xl animate-fade-in-up" style="animation-delay: 0.2s;">
+                                        <div class="w-10 h-10 bg-gradient-to-r from-blue-400 to-blue-500 rounded-full flex items-center justify-center">
+                                            <i class="fas fa-user text-white text-sm"></i>
+                                        </div>
+                                        <div class="flex-1">
+                                            <div class="text-white font-medium">Malika Usmonova</div>
+                                            <div class="text-white/60 text-sm">10-A sinf</div>
+                                        </div>
+                                        <div class="text-right">
+                                            <div class="text-blue-400 font-bold">08:12</div>
+                                            <div class="text-white/60 text-xs">Erta keldi</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex items-center space-x-4 p-3 bg-white/10 rounded-xl animate-fade-in-up" style="animation-delay: 0.4s;">
+                                        <div class="w-10 h-10 bg-gradient-to-r from-red-400 to-red-500 rounded-full flex items-center justify-center">
+                                            <i class="fas fa-clock text-white text-sm"></i>
+                                        </div>
+                                        <div class="flex-1">
+                                            <div class="text-white font-medium">Bobur Tursunov</div>
+                                            <div class="text-white/60 text-sm">10-A sinf</div>
+                                        </div>
+                                        <div class="text-right">
+                                            <div class="text-red-400 font-bold">08:25</div>
+                                            <div class="text-white/60 text-xs">Kech qoldi</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Quick Stats -->
+                                <div class="grid grid-cols-3 gap-3 mt-6">
+                                    <div class="text-center p-3 bg-white/10 rounded-lg">
+                                        <div class="text-2xl font-bold text-white">28</div>
+                                        <div class="text-white/60 text-xs">Keldi</div>
+                                    </div>
+                                    <div class="text-center p-3 bg-white/10 rounded-lg">
+                                        <div class="text-2xl font-bold text-red-400">2</div>
+                                        <div class="text-white/60 text-xs">Kech</div>
+                                    </div>
+                                    <div class="text-center p-3 bg-white/10 rounded-lg">
+                                        <div class="text-2xl font-bold text-success-400">93%</div>
+                                        <div class="text-white/60 text-xs">Davomat</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Floating Elements -->
+                    <div class="absolute -top-8 -left-8 glass-effect rounded-2xl p-4 animate-float">
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-brain text-primary-400 text-2xl"></i>
+                            <div>
+                                <div class="text-white font-bold">AI Engine</div>
+                                <div class="text-white/60 text-sm">99.8% aniq</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="absolute -bottom-8 -right-8 glass-effect rounded-2xl p-4 animate-float" style="animation-delay: -3s;">
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-mobile-alt text-success-400 text-2xl"></i>
+                            <div>
+                                <div class="text-white font-bold">Mobil ilova</div>
+                                <div class="text-white/60 text-sm">iOS & Android</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="absolute top-1/2 -left-12 glass-effect rounded-2xl p-4 animate-float" style="animation-delay: -1s;">
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-bell text-accent-400 text-2xl"></i>
+                            <div>
+                                <div class="text-white font-bold">Real-time</div>
+                                <div class="text-white/60 text-sm">Xabarlar</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <div class="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center">
+                <div class="w-1 h-3 bg-white rounded-full mt-2 animate-pulse"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Logos Section -->
+    <section class="py-16 bg-white border-b border-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <p class="text-gray-600 font-medium">500+ ta muassasa bizga ishonch bildirgan</p>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center opacity-60">
+                <div class="text-center group hover:opacity-100 transition-opacity">
+                    <div class="w-16 h-16 bg-gray-100 rounded-xl mx-auto flex items-center justify-center group-hover:bg-primary-100 transition-colors">
+                        <i class="fas fa-school text-2xl text-gray-400 group-hover:text-primary-600"></i>
+                    </div>
+                    <div class="text-sm text-gray-500 mt-2">Maktab #1</div>
+                </div>
+                <div class="text-center group hover:opacity-100 transition-opacity">
+                    <div class="w-16 h-16 bg-gray-100 rounded-xl mx-auto flex items-center justify-center group-hover:bg-primary-100 transition-colors">
+                        <i class="fas fa-university text-2xl text-gray-400 group-hover:text-primary-600"></i>
+                    </div>
+                    <div class="text-sm text-gray-500 mt-2">TATU</div>
+                </div>
+                <div class="text-center group hover:opacity-100 transition-opacity">
+                    <div class="w-16 h-16 bg-gray-100 rounded-xl mx-auto flex items-center justify-center group-hover:bg-primary-100 transition-colors">
+                        <i class="fas fa-graduation-cap text-2xl text-gray-400 group-hover:text-primary-600"></i>
+                    </div>
+                    <div class="text-sm text-gray-500 mt-2">INHA</div>
+                </div>
+                <div class="text-center group hover:opacity-100 transition-opacity">
+                    <div class="w-16 h-16 bg-gray-100 rounded-xl mx-auto flex items-center justify-center group-hover:bg-primary-100 transition-colors">
+                        <i class="fas fa-building text-2xl text-gray-400 group-hover:text-primary-600"></i>
+                    </div>
+                    <div class="text-sm text-gray-500 mt-2">IT Park</div>
+                </div>
+                <div class="text-center group hover:opacity-100 transition-opacity">
+                    <div class="w-16 h-16 bg-gray-100 rounded-xl mx-auto flex items-center justify-center group-hover:bg-primary-100 transition-colors">
+                        <i class="fas fa-chalkboard-teacher text-2xl text-gray-400 group-hover:text-primary-600"></i>
+                    </div>
+                    <div class="text-sm text-gray-500 mt-2">Najot Ta'lim</div>
+                </div>
+                <div class="text-center group hover:opacity-100 transition-opacity">
+                    <div class="w-16 h-16 bg-gray-100 rounded-xl mx-auto flex items-center justify-center group-hover:bg-primary-100 transition-colors">
+                        <i class="fas fa-laptop-code text-2xl text-gray-400 group-hover:text-primary-600"></i>
+                    </div>
+                    <div class="text-sm text-gray-500 mt-2">PDP Academy</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enhanced Features Section -->
+    <section id="features" class="py-24 bg-gradient-to-br from-gray-50 to-blue-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-20">
+                <div class="inline-flex items-center px-4 py-2 bg-primary-100 rounded-full text-primary-700 text-sm font-medium mb-4">
+                    <i class="fas fa-magic mr-2"></i>
+                    Zamonaviy xususiyatlar
+                </div>
+                <h2 class="text-5xl font-black text-gray-900 mb-6">
+                    Nima uchun <span class="gradient-text">FaceChek</span>?
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                    Sun'iy intellekt va zamonaviy texnologiyalar yordamida yaratilgan 
+                    eng ilg'or davomat nazorat tizimi
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- AI Recognition -->
+                <div class="group card-hover bg-white rounded-3xl shadow-lg hover:shadow-2xl p-8 border border-gray-100">
+                    <div class="relative mb-6">
+                        <div class="w-20 h-20 bg-gradient-to-r from-primary-500 to-primary-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform">
+                            <i class="fas fa-brain text-white text-3xl"></i>
+                        </div>
+                        <div class="absolute -top-2 -right-2 w-6 h-6 bg-success-500 rounded-full flex items-center justify-center">
+                            <i class="fas fa-check text-white text-xs"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">AI Yuz Tanish</h3>
+                    <p class="text-gray-600 mb-6">
+                        99.8% aniqlik bilan o'quvchilarni avtomatik tanish. Chuqur o'rganish 
+                        algoritmlari yordamida eng yuqori sifat kafolati.
+                    </p>
+                    <div class="space-y-2">
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            Millisekund ichida tanish
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            Turli yoritish sharoitlari
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            Ko'zoynak va niqob bilan ham ishlaydi
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Real-time Monitoring -->
+                <div class="group card-hover bg-white rounded-3xl shadow-lg hover:shadow-2xl p-8 border border-gray-100">
+                    <div class="relative mb-6">
+                        <div class="w-20 h-20 bg-gradient-to-r from-success-500 to-success-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform">
+                            <i class="fas fa-eye text-white text-3xl"></i>
+                        </div>
+                        <div class="absolute -top-2 -right-2 w-6 h-6 bg-red-500 rounded-full animate-pulse"></div>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Real Vaqt Monitoring</h3>
+                    <p class="text-gray-600 mb-6">
+                        Darsga qatnashishni real vaqt rejimida kuzatish va tahlil qilish. 
+                        Har bir o'quvchining holatini darhol bilish imkoniyati.
+                    </p>
+                    <div class="space-y-2">
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            Jonli dashboard
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            Push bildirishnomalar
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            Avtomatik ogohlantirishlar
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Advanced Analytics -->
+                <div class="group card-hover bg-white rounded-3xl shadow-lg hover:shadow-2xl p-8 border border-gray-100">
+                    <div class="relative mb-6">
+                        <div class="w-20 h-20 bg-gradient-to-r from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform">
+                            <i class="fas fa-chart-line text-white text-3xl"></i>
+                        </div>
+                        <div class="absolute -top-2 -right-2 w-6 h-6 bg-accent-500 rounded-full flex items-center justify-center">
+                            <i class="fas fa-star text-white text-xs"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Ilg'or Analitika</h3>
+                    <p class="text-gray-600 mb-6">
+                        Batafsil statistika va chuqur tahlillar. Excel/PDF formatda 
+                        hisobotlar va ma'lumotlarni eksport qilish imkoniyati.
+                    </p>
+                    <div class="space-y-2">
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            Interaktiv grafiklar
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            Trend tahlili
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            Prognoz qilish
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Multi-platform Integration -->
+                <div class="group card-hover bg-white rounded-3xl shadow-lg hover:shadow-2xl p-8 border border-gray-100">
+                    <div class="relative mb-6">
+                        <div class="w-20 h-20 bg-gradient-to-r from-accent-500 to-accent-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform">
+                            <i class="fas fa-plug text-white text-3xl"></i>
+                        </div>
+                        <div class="absolute -top-2 -right-2 w-6 h-6 bg-primary-500 rounded-full flex items-center justify-center">
+                            <i class="fas fa-link text-white text-xs"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Ko'p Platformali Integratsiya</h3>
+                    <p class="text-gray-600 mb-6">
+                        Telegram, SMS, Email va boshqa platformalar bilan to'liq integratsiya. 
+                        Ota-onalarga avtomatik xabarlar yuborish.
+                    </p>
+                    <div class="space-y-2">
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fab fa-telegram text-blue-500 mr-2"></i>
+                            Telegram bot
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-sms text-green-500 mr-2"></i>
+                            SMS xabarlari
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-envelope text-red-500 mr-2"></i>
+                            Email bildirishnomalar
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Security & Privacy -->
+                <div class="group card-hover bg-white rounded-3xl shadow-lg hover:shadow-2xl p-8 border border-gray-100">
+                    <div class="relative mb-6">
+                        <div class="w-20 h-20 bg-gradient-to-r from-red-500 to-red-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform">
+                            <i class="fas fa-shield-alt text-white text-3xl"></i>
+                        </div>
+                        <div class="absolute -top-2 -right-2 w-6 h-6 bg-success-500 rounded-full flex items-center justify-center">
+                            <i class="fas fa-lock text-white text-xs"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Xavfsizlik va Maxfiylik</h3>
+                    <p class="text-gray-600 mb-6">
+                        Eng yuqori darajadagi xavfsizlik standartlari. Ma'lumotlar 
+                        shifrlash va GDPR talablariga to'liq muvofiqlik.
+                    </p>
+                    <div class="space-y-2">
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            AES-256 shifrlash
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            ISO 27001 sertifikati
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            GDPR mos
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mobile Applications -->
+                <div class="group card-hover bg-white rounded-3xl shadow-lg hover:shadow-2xl p-8 border border-gray-100">
+                    <div class="relative mb-6">
+                        <div class="w-20 h-20 bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform">
+                            <i class="fas fa-mobile-alt text-white text-3xl"></i>
+                        </div>
+                        <div class="absolute -top-2 -right-2 w-6 h-6 bg-purple-500 rounded-full flex items-center justify-center">
+                            <i class="fas fa-download text-white text-xs"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Mobil Ilovalar</h3>
+                    <p class="text-gray-600 mb-6">
+                        Android va iOS uchun to'liq funksional mobil ilovalar. 
+                        Ota-onalar va o'qituvchilar uchun alohida interfeys.
+                    </p>
+                    <div class="space-y-2">
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fab fa-android text-green-500 mr-2"></i>
+                            Android ilova
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fab fa-apple text-gray-500 mr-2"></i>
+                            iOS ilova
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-sync text-primary-500 mr-2"></i>
+                            Real-time sinxronizatsiya
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-20">
+                <div class="inline-flex items-center px-4 py-2 bg-success-100 rounded-full text-success-700 text-sm font-medium mb-4">
+                    <i class="fas fa-cogs mr-2"></i>
+                    Qanday ishlaydi
+                </div>
+                <h2 class="text-5xl font-black text-gray-900 mb-6">
+                    <span class="gradient-text">3 ta oddiy</span> qadamda
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    FaceChek tizimini o'rnatish va ishlatish juda oson. Faqat 3 ta qadamda to'liq avtomatik davomat tizimiga ega bo'ling.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-12">
+                <!-- Step 1 -->
+                <div class="text-center group">
+                    <div class="relative mb-8">
+                        <div class="w-32 h-32 bg-gradient-to-r from-primary-500 to-primary-600 rounded-full flex items-center justify-center mx-auto group-hover:scale-110 transition-transform shadow-2xl">
+                            <i class="fas fa-camera text-white text-4xl"></i>
+                        </div>
+                        <div class="absolute -top-4 -right-4 w-12 h-12 bg-accent-500 rounded-full flex items-center justify-center text-white font-bold text-xl">
+                            1
+                        </div>
+                        <div class="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-primary-500 to-transparent rounded-full"></div>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Kamera o'rnatish</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Sinf yoki auditoriya kirish joyiga HD kamerani o'rnating. Bizning texnik jamoa sizga yordam beradi.
+                    </p>
+                    <div class="mt-6 space-y-2">
+                        <div class="flex items-center justify-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            HD sifatli kameralar
+                        </div>
+                        <div class="flex items-center justify-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            Oson o'rnatish
+                        </div>
+                        <div class="flex items-center justify-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            Texnik yordam
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="text-center group">
+                    <div class="relative mb-8">
+                        <div class="w-32 h-32 bg-gradient-to-r from-success-500 to-success-600 rounded-full flex items-center justify-center mx-auto group-hover:scale-110 transition-transform shadow-2xl">
+                            <i class="fas fa-users text-white text-4xl"></i>
+                        </div>
+                        <div class="absolute -top-4 -right-4 w-12 h-12 bg-accent-500 rounded-full flex items-center justify-center text-white font-bold text-xl">
+                            2
+                        </div>
+                        <div class="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-success-500 to-transparent rounded-full"></div>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Ma'lumotlar kiritish</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        O'quvchilar va o'qituvchilarning ma'lumotlarini tizimga kiriting. Yuz rasmlarini yuklang va guruhlarni sozlang.
+                    </p>
+                    <div class="mt-6 space-y-2">
+                        <div class="flex items-center justify-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            Oson import
+                        </div>
+                        <div class="flex items-center justify-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            Excel dan yuklash
+                        </div>
+                        <div class="flex items-center justify-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            Avtomatik guruhlashtirish
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="text-center group">
+                    <div class="relative mb-8">
+                        <div class="w-32 h-32 bg-gradient-to-r from-purple-500 to-purple-600 rounded-full flex items-center justify-center mx-auto group-hover:scale-110 transition-transform shadow-2xl">
+                            <i class="fas fa-play text-white text-4xl"></i>
+                        </div>
+                        <div class="absolute -top-4 -right-4 w-12 h-12 bg-accent-500 rounded-full flex items-center justify-center text-white font-bold text-xl">
+                            3
+                        </div>
+                        <div class="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-purple-500 to-transparent rounded-full"></div>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Ishga tushirish</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Tizimni ishga tushiring va avtomatik davomat nazoratidan foydalaning. Real vaqt hisobotlarni ko'ring.
+                    </p>
+                    <div class="mt-6 space-y-2">
+                        <div class="flex items-center justify-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            Avtomatik ishlash
+                        </div>
+                        <div class="flex items-center justify-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            Real vaqt hisobotlar
+                        </div>
+                        <div class="flex items-center justify-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            24/7 monitoring
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Process Flow -->
+            <div class="mt-20 relative">
+                <div class="absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-primary-500 via-success-500 to-purple-500 transform -translate-y-1/2 hidden md:block"></div>
+                <div class="relative flex justify-between items-center">
+                    <div class="w-4 h-4 bg-primary-500 rounded-full"></div>
+                    <div class="w-4 h-4 bg-success-500 rounded-full"></div>
+                    <div class="w-4 h-4 bg-purple-500 rounded-full"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Target Audience Section -->
+    <section class="py-24 bg-gradient-to-br from-gray-50 to-primary-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-20">
+                <div class="inline-flex items-center px-4 py-2 bg-purple-100 rounded-full text-purple-700 text-sm font-medium mb-4">
+                    <i class="fas fa-users mr-2"></i>
+                    Kimlar uchun
+                </div>
+                <h2 class="text-5xl font-black text-gray-900 mb-6">
+                    Har bir <span class="gradient-text">foydalanuvchi</span> uchun
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    FaceChek tizimi turli foydalanuvchilar uchun maxsus imkoniyatlar va interfeys yaratadi
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Teachers -->
+                <div class="group bg-white rounded-3xl p-8 text-center shadow-lg hover:shadow-2xl transition-all card-hover border border-gray-100">
+                    <div class="relative mb-6">
+                        <div class="w-24 h-24 bg-gradient-to-r from-primary-500 to-primary-600 rounded-full flex items-center justify-center mx-auto group-hover:scale-110 transition-transform">
+                            <i class="fas fa-chalkboard-teacher text-white text-3xl"></i>
+                        </div>
+                        <div class="absolute -top-2 -right-2 w-8 h-8 bg-accent-500 rounded-full flex items-center justify-center">
+                            <i class="fas fa-star text-white text-sm"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">O'qituvchilar</h3>
+                    <p class="text-gray-600 mb-6">
+                        Guruh davomatini nazorat qilish va tahlil paneli orqali boshqarish
+                    </p>
+                    <div class="space-y-3">
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            Guruh davomat hisoboti
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            Real vaqt monitoring
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            Avtomatik xabarlar
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            Excel eksport
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Management -->
+                <div class="group bg-white rounded-3xl p-8 text-center shadow-lg hover:shadow-2xl transition-all card-hover border border-gray-100">
+                    <div class="relative mb-6">
+                        <div class="w-24 h-24 bg-gradient-to-r from-success-500 to-success-600 rounded-full flex items-center justify-center mx-auto group-hover:scale-110 transition-transform">
+                            <i class="fas fa-user-tie text-white text-3xl"></i>
+                        </div>
+                        <div class="absolute -top-2 -right-2 w-8 h-8 bg-accent-500 rounded-full flex items-center justify-center">
+                            <i class="fas fa-crown text-white text-sm"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Rahbariyat</h3>
+                    <p class="text-gray-600 mb-6">
+                        Umumiy holatni kuzatish va qarorlar qabul qilish uchun batafsil tahlillar
+                    </p>
+                    <div class="space-y-3">
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            Umumiy statistika
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            Trend tahlili
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            Boshqaruv paneli
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            Prognoz qilish
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Parents -->
+                <div class="group bg-white rounded-3xl p-8 text-center shadow-lg hover:shadow-2xl transition-all card-hover border border-gray-100">
+                    <div class="relative mb-6">
+                        <div class="w-24 h-24 bg-gradient-to-r from-purple-500 to-purple-600 rounded-full flex items-center justify-center mx-auto group-hover:scale-110 transition-transform">
+                            <i class="fas fa-users text-white text-3xl"></i>
+                        </div>
+                        <div class="absolute -top-2 -right-2 w-8 h-8 bg-accent-500 rounded-full flex items-center justify-center">
+                            <i class="fas fa-heart text-white text-sm"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Ota-onalar</h3>
+                    <p class="text-gray-600 mb-6">
+                        Farzandning darsga qatnashuvi haqida real vaqt ma'lumotlar
+                    </p>
+                    <div class="space-y-3">
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            Telegram xabarlari
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            SMS bildirishnomalar
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            Mobil ilova
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            Haftalik hisobotlar
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Students -->
+                <div class="group bg-white rounded-3xl p-8 text-center shadow-lg hover:shadow-2xl transition-all card-hover border border-gray-100">
+                    <div class="relative mb-6">
+                        <div class="w-24 h-24 bg-gradient-to-r from-accent-500 to-accent-600 rounded-full flex items-center justify-center mx-auto group-hover:scale-110 transition-transform">
+                            <i class="fas fa-graduation-cap text-white text-3xl"></i>
+                        </div>
+                        <div class="absolute -top-2 -right-2 w-8 h-8 bg-primary-500 rounded-full flex items-center justify-center">
+                            <i class="fas fa-medal text-white text-sm"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">O'quvchilar</h3>
+                    <p class="text-gray-600 mb-6">
+                        Shaxsiy davomat statistikasini ko'rish va o'z natijalarini tahlil qilish
+                    </p>
+                    <div class="space-y-3">
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            Shaxsiy statistika
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            Davomat tarixi
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            Maqsadlar qo'yish
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-check text-success-500 mr-2"></i>
+                            Yutuqlar tizimi
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calculator Section -->
+    <section id="calculator" class="py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-20">
+                <div class="inline-flex items-center px-4 py-2 bg-accent-100 rounded-full text-accent-700 text-sm font-medium mb-4">
+                    <i class="fas fa-calculator mr-2"></i>
+                    Iqtisodiy hisob-kitob
+                </div>
+                <h2 class="text-5xl font-black text-gray-900 mb-6">
+                    <span class="gradient-text">Qancha tejaysiz?</span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    FaceChek tizimi sizga qancha vaqt va pul tejashini hisoblang. 
+                    An'anaviy davomat usullari bilan solishtirib ko'ring.
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
+                <!-- Input Section -->
+                <div class="bg-gradient-to-br from-primary-50 to-blue-50 rounded-3xl shadow-xl p-8 border border-primary-100">
+                    <div class="flex items-center mb-8">
+                        <div class="w-12 h-12 bg-primary-600 rounded-xl flex items-center justify-center mr-4">
+                            <i class="fas fa-edit text-white text-xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900">Ma'lumotlarni kiriting</h3>
+                    </div>
+                    
+                    <form class="space-y-6">
+                        <div class="group">
+                            <label class="block text-gray-700 font-semibold mb-3 group-focus-within:text-primary-600 transition-colors">
+                                <i class="fas fa-money-bill-wave mr-2 text-primary-500"></i>
+                                O'rtacha oylik maosh (so'm)
+                            </label>
+                            <input type="text" id="avgSalary" placeholder="5,000,000" 
+                                   class="w-full px-6 py-4 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-all text-lg font-medium bg-white shadow-sm">
+                        </div>
+                        
+                        <div class="group">
+                            <label class="block text-gray-700 font-semibold mb-3 group-focus-within:text-primary-600 transition-colors">
+                                <i class="fas fa-calendar-alt mr-2 text-primary-500"></i>
+                                Oylik darslar soni
+                            </label>
+                            <input type="text" id="lessonCount" placeholder="20" 
+                                   class="w-full px-6 py-4 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-all text-lg font-medium bg-white shadow-sm">
+                        </div>
+                        
+                        <div class="group">
+                            <label class="block text-gray-700 font-semibold mb-3 group-focus-within:text-primary-600 transition-colors">
+                                <i class="fas fa-clock mr-2 text-primary-500"></i>
+                                Dars davomiyligi (daqiqa)
+                            </label>
+                            <input type="text" id="lessonDuration" placeholder="60" 
+                                   class="w-full px-6 py-4 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-all text-lg font-medium bg-white shadow-sm">
+                        </div>
+                        
+                        <div class="group">
+                            <label class="block text-gray-700 font-semibold mb-3 group-focus-within:text-primary-600 transition-colors">
+                                <i class="fas fa-stopwatch mr-2 text-primary-500"></i>
+                                Davomat olish vaqti (daqiqa)
+                            </label>
+                            <input type="text" id="attendanceTime" placeholder="5" 
+                                   class="w-full px-6 py-4 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-all text-lg font-medium bg-white shadow-sm">
+                        </div>
+                        
+                        <div class="group">
+                            <label class="block text-gray-700 font-semibold mb-3 group-focus-within:text-primary-600 transition-colors">
+                                <i class="fas fa-users mr-2 text-primary-500"></i>
+                                Xodimlar soni
+                            </label>
+                            <input type="text" id="employeeCount" placeholder="10" 
+                                   class="w-full px-6 py-4 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-all text-lg font-medium bg-white shadow-sm">
+                        </div>
+
+                        <div class="bg-primary-100 rounded-xl p-4 mt-6">
+                            <div class="flex items-center text-primary-700">
+                                <i class="fas fa-info-circle mr-2"></i>
+                                <span class="text-sm font-medium">Barcha maydonlarni to'ldiring va natijalarni real vaqtda ko'ring</span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Results Section -->
+                <div class="bg-gradient-to-br from-gray-900 via-primary-900 to-purple-900 rounded-3xl shadow-2xl p-8 text-white relative overflow-hidden">
+                    <!-- Background Pattern -->
+                    <div class="absolute inset-0 opacity-10">
+                        <div class="absolute top-0 right-0 w-32 h-32 bg-white rounded-full blur-3xl"></div>
+                        <div class="absolute bottom-0 left-0 w-24 h-24 bg-accent-500 rounded-full blur-2xl"></div>
+                    </div>
+
+                    <div class="relative z-10">
+                        <div class="flex items-center mb-8">
+                            <div class="w-12 h-12 bg-accent-500 rounded-xl flex items-center justify-center mr-4">
+                                <i class="fas fa-chart-line text-white text-xl"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold">Hisob-kitob natijalari</h3>
+                        </div>
+                        
+                        <div class="space-y-6">
+                            <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
+                                <div class="flex items-center justify-between mb-2">
+                                    <p class="text-white/80 font-medium">Daqiqalik maosh:</p>
+                                    <i class="fas fa-coins text-accent-400"></i>
+                                </div>
+                                <p class="text-3xl font-black text-white number-counter" id="minuteSalary">0 so'm</p>
+                            </div>
+                            
+                            <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
+                                <div class="flex items-center justify-between mb-2">
+                                    <p class="text-white/80 font-medium">Davomat olish xarajati:</p>
+                                    <i class="fas fa-calculator text-blue-400"></i>
+                                </div>
+                                <p class="text-3xl font-black text-white number-counter" id="attendanceSalary">0 so'm</p>
+                            </div>
+                            
+                            <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
+                                <div class="flex items-center justify-between mb-2">
+                                    <p class="text-white/80 font-medium">Oylik davomat xarajati:</p>
+                                    <i class="fas fa-calendar text-purple-400"></i>
+                                </div>
+                                <p class="text-3xl font-black text-white number-counter" id="monthlyAttendanceSalary">0 so'm</p>
+                            </div>
+                            
+                            <div class="bg-gradient-to-r from-accent-500 to-accent-600 rounded-2xl p-6 shadow-xl">
+                                <div class="flex items-center justify-between mb-2">
+                                    <p class="text-white font-medium">Umumiy oylik xarajat:</p>
+                                    <i class="fas fa-exclamation-triangle text-white"></i>
+                                </div>
+                                <p class="text-4xl font-black text-white number-counter" id="totalSalary">0 so'm</p>
+                                <div class="mt-4 p-3 bg-white/20 rounded-lg">
+                                    <p class="text-sm text-white/90">
+                                        <i class="fas fa-lightbulb mr-2"></i>
+                                        FaceChek bilan bu xarajatni 90% gacha kamaytiring!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Savings Indicator -->
+                        <div class="mt-8 p-6 bg-success-500/20 border border-success-500/30 rounded-2xl">
+                            <div class="flex items-center mb-3">
+                                <i class="fas fa-piggy-bank text-success-400 text-xl mr-3"></i>
+                                <h4 class="text-lg font-bold text-white">Potentsial tejamkorlik</h4>
+                            </div>
+                            <div class="grid grid-cols-2 gap-4">
+                                <div class="text-center">
+                                    <div class="text-2xl font-bold text-success-400" id="monthlySavings">0 so'm</div>
+                                    <div class="text-sm text-white/70">Oylik tejamkorlik</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-2xl font-bold text-success-400" id="yearlySavings">0 so'm</div>
+                                    <div class="text-sm text-white/70">Yillik tejamkorlik</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Comparison Chart -->
+            <div class="mt-16 bg-gradient-to-r from-gray-50 to-primary-50 rounded-3xl p-8">
+                <h3 class="text-2xl font-bold text-gray-900 text-center mb-8">
+                    An'anaviy usul vs FaceChek
+                </h3>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-red-50 border-2 border-red-200 rounded-2xl p-6">
+                        <div class="flex items-center mb-4">
+                            <i class="fas fa-clipboard-list text-red-500 text-2xl mr-3"></i>
+                            <h4 class="text-xl font-bold text-red-700">An'anaviy usul</h4>
+                        </div>
+                        <ul class="space-y-3">
+                            <li class="flex items-center text-red-600">
+                                <i class="fas fa-times mr-3"></i>
+                                Qo'lda davomat olish
+                            </li>
+                            <li class="flex items-center text-red-600">
+                                <i class="fas fa-times mr-3"></i>
+                                Vaqt yo'qotish (5-10 daqiqa)
+                            </li>
+                            <li class="flex items-center text-red-600">
+                                <i class="fas fa-times mr-3"></i>
+                                Xatolar va soxtalashtirishlar
+                            </li>
+                            <li class="flex items-center text-red-600">
+                                <i class="fas fa-times mr-3"></i>
+                                Qog'oz isrofi
+                            </li>
+                            <li class="flex items-center text-red-600">
+                                <i class="fas fa-times mr-3"></i>
+                                Kech xabar berish
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-green-50 border-2 border-green-200 rounded-2xl p-6">
+                        <div class="flex items-center mb-4">
+                            <i class="fas fa-robot text-green-500 text-2xl mr-3"></i>
+                            <h4 class="text-xl font-bold text-green-700">FaceChek tizimi</h4>
+                        </div>
+                        <ul class="space-y-3">
+                            <li class="flex items-center text-green-600">
+                                <i class="fas fa-check mr-3"></i>
+                                Avtomatik tanish (1 sekund)
+                            </li>
+                            <li class="flex items-center text-green-600">
+                                <i class="fas fa-check mr-3"></i>
+                                99.8% aniqlik
+                            </li>
+                            <li class="flex items-center text-green-600">
+                                <i class="fas fa-check mr-3"></i>
+                                Real vaqt xabarlar
+                            </li>
+                            <li class="flex items-center text-green-600">
+                                <i class="fas fa-check mr-3"></i>
+                                Ekologik toza
+                            </li>
+                            <li class="flex items-center text-green-600">
+                                <i class="fas fa-check mr-3"></i>
+                                24/7 monitoring
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Stack Section -->
+    <section class="py-24 bg-gradient-to-br from-gray-900 via-primary-900 to-purple-900 text-white relative overflow-hidden">
+        <div class="absolute inset-0">
+            <div class="absolute top-20 left-10 w-72 h-72 bg-primary-500/20 rounded-full blur-3xl animate-float"></div>
+            <div class="absolute bottom-20 right-10 w-96 h-96 bg-purple-500/20 rounded-full blur-3xl animate-float" style="animation-delay: -2s;"></div>
+        </div>
+
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="text-center mb-20">
+                <div class="inline-flex items-center px-4 py-2 bg-white/10 rounded-full text-white text-sm font-medium mb-4 backdrop-blur-sm border border-white/20">
+                    <i class="fas fa-code mr-2"></i>
+                    Texnologik asos
+                </div>
+                <h2 class="text-5xl font-black mb-6">
+                    Zamonaviy <span class="text-accent-400">texnologiyalar</span>
+                </h2>
+                <p class="text-xl text-white/80 max-w-3xl mx-auto">
+                    Eng so'nggi AI va web texnologiyalari asosida qurilgan ishonchli va xavfsiz tizim
+                </p>
+            </div>
+
+            <!-- Main Technologies -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+                <div class="text-center group">
+                    <div class="w-24 h-24 bg-white/10 backdrop-blur-sm rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform border border-white/20">
+                        <i class="fab fa-python text-4xl text-accent-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Python/Django</h3>
+                    <p class="text-white/70 text-sm">Backend dasturlash va AI modellar</p>
+                </div>
+                
+                <div class="text-center group">
+                    <div class="w-24 h-24 bg-white/10 backdrop-blur-sm rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform border border-white/20">
+                        <i class="fab fa-react text-4xl text-blue-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">React.js</h3>
+                    <p class="text-white/70 text-sm">Zamonaviy frontend interfeys</p>
+                </div>
+                
+                <div class="text-center group">
+                    <div class="w-24 h-24 bg-white/10 backdrop-blur-sm rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform border border-white/20">
+                        <i class="fas fa-brain text-4xl text-success-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">TensorFlow</h3>
+                    <p class="text-white/70 text-sm">AI/ML modellari va yuz tanish</p>
+                </div>
+                
+                <div class="text-center group">
+                    <div class="w-24 h-24 bg-white/10 backdrop-blur-sm rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform border border-white/20">
+                        <i class="fas fa-database text-4xl text-purple-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">PostgreSQL</h3>
+                    <p class="text-white/70 text-sm">Ishonchli ma'lumotlar bazasi</p>
+                </div>
+            </div>
+
+            <!-- Integration Technologies -->
+            <div class="bg-white/10 backdrop-blur-sm rounded-3xl p-8 border border-white/20">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-3xl font-bold mb-6">Integratsiyalar va API</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-center p-4 bg-white/10 rounded-xl border border-white/20">
+                                <i class="fab fa-telegram text-blue-400 text-2xl mr-4"></i>
+                                <div>
+                                    <h4 class="font-bold">Telegram Bot API</h4>
+                                    <p class="text-white/70 text-sm">Real vaqt xabarlar va bildirishnomalar</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center p-4 bg-white/10 rounded-xl border border-white/20">
+                                <i class="fas fa-sms text-success-400 text-2xl mr-4"></i>
+                                <div>
+                                    <h4 class="font-bold">SMS Gateway</h4>
+                                    <p class="text-white/70 text-sm">SMS orqali ogohlantirishlar</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center p-4 bg-white/10 rounded-xl border border-white/20">
+                                <i class="fas fa-envelope text-red-400 text-2xl mr-4"></i>
+                                <div>
+                                    <h4 class="font-bold">Email Service</h4>
+                                    <p class="text-white/70 text-sm">Email bildirishnomalar va hisobotlar</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center p-4 bg-white/10 rounded-xl border border-white/20">
+                                <i class="fas fa-file-excel text-green-400 text-2xl mr-4"></i>
+                                <div>
+                                    <h4 class="font-bold">Excel/PDF Export</h4>
+                                    <p class="text-white/70 text-sm">Hisobotlarni eksport qilish</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="relative">
+                            <div class="w-64 h-64 bg-white/10 rounded-3xl mx-auto flex items-center justify-center border border-white/20 backdrop-blur-sm">
+                                <div class="text-center">
+                                    <i class="fas fa-network-wired text-6xl text-accent-400 mb-4"></i>
+                                    <h4 class="text-xl font-bold">API Ecosystem</h4>
+                                    <p class="text-white/70 text-sm">RESTful API va WebSocket</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Floating API Icons -->
+                            <div class="absolute -top-4 -left-4 w-12 h-12 bg-primary-500 rounded-xl flex items-center justify-center animate-float">
+                                <i class="fas fa-code text-white"></i>
+                            </div>
+                            <div class="absolute -top-4 -right-4 w-12 h-12 bg-success-500 rounded-xl flex items-center justify-center animate-float" style="animation-delay: -1s;">
+                                <i class="fas fa-plug text-white"></i>
+                            </div>
+                            <div class="absolute -bottom-4 -left-4 w-12 h-12 bg-purple-500 rounded-xl flex items-center justify-center animate-float" style="animation-delay: -2s;">
+                                <i class="fas fa-cogs text-white"></i>
+                            </div>
+                            <div class="absolute -bottom-4 -right-4 w-12 h-12 bg-accent-500 rounded-xl flex items-center justify-center animate-float" style="animation-delay: -3s;">
+                                <i class="fas fa-rocket text-white"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Security Features -->
+            <div class="mt-16 grid md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-red-500/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-shield-alt text-red-400 text-2xl"></i>
+                    </div>
+                    <h4 class="text-lg font-bold mb-2">AES-256 Shifrlash</h4>
+                    <p class="text-white/70 text-sm">Harbiy darajadagi ma'lumotlar himoyasi</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-success-500/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-certificate text-success-400 text-2xl"></i>
+                    </div>
+                    <h4 class="text-lg font-bold mb-2">ISO 27001</h4>
+                    <p class="text-white/70 text-sm">Xalqaro xavfsizlik standartlari</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-blue-500/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-user-shield text-blue-400 text-2xl"></i>
+                    </div>
+                    <h4 class="text-lg font-bold mb-2">GDPR Compliance</h4>
+                    <p class="text-white/70 text-sm">Maxfiylik qoidalariga rioya</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-24 bg-gradient-to-br from-gray-50 to-primary-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-20">
+                <div class="inline-flex items-center px-4 py-2 bg-accent-100 rounded-full text-accent-700 text-sm font-medium mb-4">
+                    <i class="fas fa-tags mr-2"></i>
+                    Narx rejalari
+                </div>
+                <h2 class="text-5xl font-black text-gray-900 mb-6">
+                    Har qanday <span class="gradient-text">muassasa</span> uchun
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Kichik maktabdan tortib yirik universitetlargacha - har bir muassasa uchun mos narx rejasi
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <!-- Basic Plan -->
+                <div class="bg-white rounded-3xl shadow-lg hover:shadow-2xl transition-all p-8 border border-gray-200 relative">
+                    <div class="text-center mb-8">
+                        <div class="w-16 h-16 bg-primary-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-seedling text-primary-600 text-2xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900">Boshlang'ich</h3>
+                        <p class="text-gray-600 mt-2">Kichik ta'lim muassasalari uchun</p>
+                        <div class="mt-6">
+                            <span class="text-4xl font-black text-gray-900">500,000</span>
+                            <span class="text-gray-600 text-lg">so'm/oy</span>
+                        </div>
+                        <p class="text-sm text-gray-500 mt-2">Kuniga ~16,600 so'm</p>
+                    </div>
+                    
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-success-500 mr-3"></i>
+                            <span>50 tagacha o'quvchi</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-success-500 mr-3"></i>
+                            <span>Asosiy hisobotlar</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-success-500 mr-3"></i>
+                            <span>Telegram integratsiya</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-success-500 mr-3"></i>
+                            <span>Email qo'llab-quvvatlash</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-success-500 mr-3"></i>
+                            <span>Mobil ilova</span>
+                        </li>
+                        <li class="flex items-center text-gray-400">
+                            <i class="fas fa-times mr-3"></i>
+                            <span>SMS xabarlari</span>
+                        </li>
+                        <li class="flex items-center text-gray-400">
+                            <i class="fas fa-times mr-3"></i>
+                            <span>API kirish</span>
+                        </li>
+                    </ul>
+                    
+                    <button class="w-full border-2 border-primary-600 text-primary-600 hover:bg-primary-600 hover:text-white py-4 rounded-xl font-bold text-lg transition-all">
+                        Tanlash
+                    </button>
+                </div>
+
+                <!-- Professional Plan (Most Popular) -->
+                <div class="bg-gradient-to-br from-primary-600 to-primary-700 rounded-3xl shadow-2xl p-8 text-white relative transform scale-105 border-4 border-accent-400">
+                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                        <span class="bg-accent-500 text-white px-6 py-2 rounded-full text-sm font-bold shadow-lg">
+                            <i class="fas fa-star mr-1"></i>ENG MASHHUR
+                        </span>
+                    </div>
+                    
+                    <div class="text-center mb-8">
+                        <div class="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-rocket text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold">Professional</h3>
+                        <p class="text-primary-100 mt-2">O'rta va katta muassasalar uchun</p>
+                        <div class="mt-6">
+                            <span class="text-4xl font-black">1,200,000</span>
+                            <span class="text-primary-100 text-lg">so'm/oy</span>
+                        </div>
+                        <p class="text-sm text-primary-200 mt-2">Kuniga ~40,000 so'm</p>
+                    </div>
+                    
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-white mr-3"></i>
+                            <span>500 tagacha o'quvchi</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-white mr-3"></i>
+                            <span>Batafsil tahliliy hisobotlar</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-white mr-3"></i>
+                            <span>Barcha integratsiyalar</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-white mr-3"></i>
+                            <span>SMS xabarlari</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-white mr-3"></i>
+                            <span>Mobil ilovalar</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-white mr-3"></i>
+                            <span>Telefon qo'llab-quvvatlash</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-white mr-3"></i>
+                            <span>API kirish huquqi</span>
+                        </li>
+                    </ul>
+                    
+                    <button class="w-full bg-white text-primary-600 hover:bg-gray-100 py-4 rounded-xl font-bold text-lg transition-all shadow-lg">
+                        Tanlash
+                    </button>
+                </div>
+
+                <!-- Enterprise Plan -->
+                <div class="bg-white rounded-3xl shadow-lg hover:shadow-2xl transition-all p-8 border border-gray-200 relative">
+                    <div class="text-center mb-8">
+                        <div class="w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-building text-purple-600 text-2xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900">Korporativ</h3>
+                        <p class="text-gray-600 mt-2">Yirik ta'lim tizimlari uchun</p>
+                        <div class="mt-6">
+                            <span class="text-4xl font-black text-gray-900">Kelishilgan</span>
+                            <span class="text-gray-600 text-lg">narx</span>
+                        </div>
+                        <p class="text-sm text-gray-500 mt-2">Maxsus shartlar</p>
+                    </div>
+                    
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-success-500 mr-3"></i>
+                            <span>Cheksiz o'quvchilar</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-success-500 mr-3"></i>
+                            <span>Maxsus sozlamalar</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-success-500 mr-3"></i>
+                            <span>To'liq API kirish</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-success-500 mr-3"></i>
+                            <span>Shaxsiy menejer</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-success-500 mr-3"></i>
+                            <span>24/7 qo'llab-quvvatlash</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-success-500 mr-3"></i>
+                            <span>On-premise o'rnatish</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-success-500 mr-3"></i>
+                            <span>Maxsus integratsiyalar</span>
+                        </li>
+                    </ul>
+                    
+                    <button class="w-full border-2 border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white py-4 rounded-xl font-bold text-lg transition-all">
+                        Bog'lanish
+                    </button>
+                </div>
+            </div>
+
+            <!-- Additional Info -->
+            <div class="mt-16 text-center">
+                <div class="bg-white rounded-2xl shadow-lg p-8 max-w-4xl mx-auto">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Barcha rejalarda mavjud</h3>
+                    <div class="grid md:grid-cols-4 gap-6">
+                        <div class="text-center">
+                            <i class="fas fa-cloud text-primary-500 text-3xl mb-3"></i>
+                            <h4 class="font-bold text-gray-900">Cloud hosting</h4>
+                            <p class="text-gray-600 text-sm">Ishonchli bulut xizmati</p>
+                        </div>
+                        <div class="text-center">
+                            <i class="fas fa-sync text-success-500 text-3xl mb-3"></i>
+                            <h4 class="font-bold text-gray-900">Avtomatik backup</h4>
+                            <p class="text-gray-600 text-sm">Ma'lumotlar himoyasi</p>
+                        </div>
+                        <div class="text-center">
+                            <i class="fas fa-headset text-purple-500 text-3xl mb-3"></i>
+                            <h4 class="font-bold text-gray-900">Texnik yordam</h4>
+                            <p class="text-gray-600 text-sm">Professional qo'llab-quvvatlash</p>
+                        </div>
+                        <div class="text-center">
+                            <i class="fas fa-graduation-cap text-accent-500 text-3xl mb-3"></i>
+                            <h4 class="font-bold text-gray-900">O'qitish</h4>
+                            <p class="text-gray-600 text-sm">Bepul o'qitish kurslari</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Money Back Guarantee -->
+            <div class="mt-12 text-center">
+                <div class="inline-flex items-center px-6 py-3 bg-success-100 rounded-full text-success-700">
+                    <i class="fas fa-shield-check mr-2"></i>
+                    <span class="font-medium">30 kunlik pul qaytarish kafolati</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-20">
+                <div class="inline-flex items-center px-4 py-2 bg-primary-100 rounded-full text-primary-700 text-sm font-medium mb-4">
+                    <i class="fas fa-question-circle mr-2"></i>
+                    Tez-tez so'raladigan savollar
+                </div>
+                <h2 class="text-5xl font-black text-gray-900 mb-6">
+                    <span class="gradient-text">Savollaringiz</span> bormi?
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    FaceChek haqida eng ko'p so'raladigan savollar va ularning javoblari
+                </p>
+            </div>
+
+            <div class="max-w-4xl mx-auto space-y-4">
+                <div class="border border-gray-200 rounded-2xl overflow-hidden">
+                    <button class="w-full text-left p-6 focus:outline-none bg-white hover:bg-gray-50 transition-colors" onclick="toggleFAQ(1)">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-lg font-bold text-gray-900">FaceChek tizimi qanchalik aniq ishlaydi?</h3>
+                            <div class="flex-shrink-0 ml-4">
+                                <i class="fas fa-chevron-down text-gray-500 transition-transform" id="faq-icon-1"></i>
+                            </div>
+                        </div>
+                    </button>
+                    <div class="hidden px-6 pb-6 bg-gray-50" id="faq-content-1">
+                        <p class="text-gray-600 leading-relaxed">
+                            Bizning AI tizimi 99.8% aniqlik bilan ishlaydi. Bu eng zamonaviy yuz tanish algoritmlari va chuqur o'rganish texnologiyalari yordamida erishilgan. Tizim turli yoritish sharoitlari, ko'zoynak, niqob va boshqa omillarga qaramay yuqori aniqlikni ta'minlaydi.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="border border-gray-200 rounded-2xl overflow-hidden">
+                    <button class="w-full text-left p-6 focus:outline-none bg-white hover:bg-gray-50 transition-colors" onclick="toggleFAQ(2)">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-lg font-bold text-gray-900">Ma'lumotlar qanchalik xavfsiz saqlanadi?</h3>
+                            <div class="flex-shrink-0 ml-4">
+                                <i class="fas fa-chevron-down text-gray-500 transition-transform" id="faq-icon-2"></i>
+                            </div>
+                        </div>
+                    </button>
+                    <div class="hidden px-6 pb-6 bg-gray-50" id="faq-content-2">
+                        <p class="text-gray-600 leading-relaxed">
+                            Barcha ma'lumotlar AES-256 shifrlash bilan himoyalangan va ISO 27001 standartlariga muvofiq saqlanadi. GDPR talablariga to'liq mos keladi. Ma'lumotlar faqat O'zbekiston hududidagi xavfsiz serverlarida saqlanadi va uchinchi shaxslarga berilmaydi.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="border border-gray-200 rounded-2xl overflow-hidden">
+                    <button class="w-full text-left p-6 focus:outline-none bg-white hover:bg-gray-50 transition-colors" onclick="toggleFAQ(3)">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-lg font-bold text-gray-900">Tizimni o'rnatish qancha vaqt oladi?</h3>
+                            <div class="flex-shrink-0 ml-4">
+                                <i class="fas fa-chevron-down text-gray-500 transition-transform" id="faq-icon-3"></i>
+                            </div>
+                        </div>
+                    </button>
+                    <div class="hidden px-6 pb-6 bg-gray-50" id="faq-content-3">
+                        <p class="text-gray-600 leading-relaxed">
+                            Oddiy holatlarda 1-2 kun ichida to'liq o'rnatish va sozlash mumkin. Katta muassasalar uchun 1 hafta vaqt ketishi mumkin. Bizning texnik jamoa butun jarayon davomida sizga yordam beradi va o'qitish o'tkazadi.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="border border-gray-200 rounded-2xl overflow-hidden">
+                    <button class="w-full text-left p-6 focus:outline-none bg-white hover:bg-gray-50 transition-colors" onclick="toggleFAQ(4)">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-lg font-bold text-gray-900">Mobil ilovalar mavjudmi?</h3>
+                            <div class="flex-shrink-0 ml-4">
+                                <i class="fas fa-chevron-down text-gray-500 transition-transform" id="faq-icon-4"></i>
+                            </div>
+                        </div>
+                    </button>
+                    <div class="hidden px-6 pb-6 bg-gray-50" id="faq-content-4">
+                        <p class="text-gray-600 leading-relaxed">
+                            Ha, Android va iOS uchun to'liq funksional mobil ilovalarimiz mavjud. Ota-onalar, o'qituvchilar va rahbariyat uchun alohida interfeys va imkoniyatlar ishlab chiqilgan. Ilovalar Google Play va App Store'da mavjud.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="border border-gray-200 rounded-2xl overflow-hidden">
+                    <button class="w-full text-left p-6 focus:outline-none bg-white hover:bg-gray-50 transition-colors" onclick="toggleFAQ(5)">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-lg font-bold text-gray-900">Qanday kameralar kerak bo'ladi?</h3>
+                            <div class="flex-shrink-0 ml-4">
+                                <i class="fas fa-chevron-down text-gray-500 transition-transform" id="faq-icon-5"></i>
+                            </div>
+                        </div>
+                    </button>
+                    <div class="hidden px-6 pb-6 bg-gray-50" id="faq-content-5">
+                        <p class="text-gray-600 leading-relaxed">
+                            Tizim HD (720p) va undan yuqori sifatli kameralar bilan ishlaydi. Bizning tavsiya etgan kameralar ro'yxati mavjud. Mavjud kameralaringiz ham mos kelishi mumkin - biz tekshirib ko'ramiz. Kameralar narxi rejaga kiritilmagan.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="border border-gray-200 rounded-2xl overflow-hidden">
+                    <button class="w-full text-left p-6 focus:outline-none bg-white hover:bg-gray-50 transition-colors" onclick="toggleFAQ(6)">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-lg font-bold text-gray-900">Internet tezligi qanday bo'lishi kerak?</h3>
+                            <div class="flex-shrink-0 ml-4">
+                                <i class="fas fa-chevron-down text-gray-500 transition-transform" id="faq-icon-6"></i>
+                            </div>
+                        </div>
+                    </button>
+                    <div class="hidden px-6 pb-6 bg-gray-50" id="faq-content-6">
+                        <p class="text-gray-600 leading-relaxed">
+                            Minimal 10 Mbps internet tezligi tavsiya etiladi. Har bir kamera uchun qo'shimcha 2-3 Mbps kerak bo'ladi. Tizim past tezlikda ham ishlaydi, lekin real vaqt xususiyatlari cheklangan bo'lishi mumkin.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact CTA -->
+            <div class="mt-16 text-center">
+                <div class="bg-gradient-to-r from-primary-50 to-purple-50 rounded-2xl p-8">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Boshqa savollaringiz bormi?</h3>
+                    <p class="text-gray-600 mb-6">Bizning mutaxassislar jamoasi sizga yordam berishga tayyor</p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                        <button class="bg-primary-600 hover:bg-primary-700 text-white px-8 py-3 rounded-xl font-semibold transition-colors">
+                            <i class="fas fa-phone mr-2"></i>Qo'ng'iroq qiling
+                        </button>
+                        <button class="border-2 border-primary-600 text-primary-600 hover:bg-primary-600 hover:text-white px-8 py-3 rounded-xl font-semibold transition-colors">
+                            <i class="fas fa-envelope mr-2"></i>Email yozing
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 bg-gradient-to-br from-primary-600 via-primary-700 to-purple-800 text-white relative overflow-hidden">
+        <div class="absolute inset-0">
+            <div class="absolute top-20 left-10 w-72 h-72 bg-white/10 rounded-full blur-3xl animate-float"></div>
+            <div class="absolute bottom-20 right-10 w-96 h-96 bg-accent-500/20 rounded-full blur-3xl animate-float" style="animation-delay: -2s;"></div>
+        </div>
+
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="text-center mb-20">
+                <div class="inline-flex items-center px-4 py-2 bg-white/10 rounded-full text-white text-sm font-medium mb-4 backdrop-blur-sm border border-white/20">
+                    <i class="fas fa-handshake mr-2"></i>
+                    Biz bilan bog'laning
+                </div>
+                <h2 class="text-5xl font-black mb-6">
+                    Bugun <span class="text-accent-400">boshlang</span>
+                </h2>
+                <p class="text-xl text-white/80 max-w-3xl mx-auto">
+                    FaceChek haqida ko'proq ma'lumot olish va bepul demo so'rash uchun biz bilan bog'laning
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
+                <!-- Contact Form -->
+                <div class="bg-white/10 backdrop-blur-sm rounded-3xl p-8 border border-white/20">
+                    <h3 class="text-2xl font-bold mb-6">Bepul demo so'rang</h3>
+                    <form class="space-y-6">
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-white/80 font-medium mb-2">Ismingiz *</label>
+                                <input type="text" placeholder="Ismingiz" required
+                                       class="w-full p-4 rounded-xl bg-white/10 border border-white/20 text-white placeholder-white/60 focus:ring-2 focus:ring-accent-400 focus:border-accent-400 transition-all backdrop-blur-sm">
+                            </div>
+                            <div>
+                                <label class="block text-white/80 font-medium mb-2">Familiyangiz *</label>
+                                <input type="text" placeholder="Familiyangiz" required
+                                       class="w-full p-4 rounded-xl bg-white/10 border border-white/20 text-white placeholder-white/60 focus:ring-2 focus:ring-accent-400 focus:border-accent-400 transition-all backdrop-blur-sm">
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <label class="block text-white/80 font-medium mb-2">Email manzilingiz *</label>
+                            <input type="email" placeholder="email@example.com" required
+                                   class="w-full p-4 rounded-xl bg-white/10 border border-white/20 text-white placeholder-white/60 focus:ring-2 focus:ring-accent-400 focus:border-accent-400 transition-all backdrop-blur-sm">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-white/80 font-medium mb-2">Telefon raqamingiz *</label>
+                            <input type="tel" placeholder="+998 90 123 45 67" required
+                                   class="w-full p-4 rounded-xl bg-white/10 border border-white/20 text-white placeholder-white/60 focus:ring-2 focus:ring-accent-400 focus:border-accent-400 transition-all backdrop-blur-sm">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-white/80 font-medium mb-2">Muassasa turi *</label>
+                            <select required class="w-full p-4 rounded-xl bg-white/10 border border-white/20 text-white focus:ring-2 focus:ring-accent-400 focus:border-accent-400 transition-all backdrop-blur-sm">
+                                <option value="" class="text-gray-900">Tanlang</option>
+                                <option value="school" class="text-gray-900">Maktab</option>
+                                <option value="university" class="text-gray-900">Universitet</option>
+                                <option value="college" class="text-gray-900">Kollej</option>
+                                <option value="institute" class="text-gray-900">Institut</option>
+                                <option value="training" class="text-gray-900">O'quv markazi</option>
+                                <option value="corporate" class="text-gray-900">Korporativ</option>
+                                <option value="other" class="text-gray-900">Boshqa</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <label class="block text-white/80 font-medium mb-2">O'quvchilar soni</label>
+                            <select class="w-full p-4 rounded-xl bg-white/10 border border-white/20 text-white focus:ring-2 focus:ring-accent-400 focus:border-accent-400 transition-all backdrop-blur-sm">
+                                <option value="" class="text-gray-900">Tanlang</option>
+                                <option value="1-50" class="text-gray-900">1-50</option>
+                                <option value="51-200" class="text-gray-900">51-200</option>
+                                <option value="201-500" class="text-gray-900">201-500</option>
+                                <option value="501-1000" class="text-gray-900">501-1000</option>
+                                <option value="1000+" class="text-gray-900">1000+</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <label class="block text-white/80 font-medium mb-2">Qo'shimcha ma'lumot</label>
+                            <textarea placeholder="Loyiha haqida qo'shimcha ma'lumotlar..." rows="4"
+                                      class="w-full p-4 rounded-xl bg-white/10 border border-white/20 text-white placeholder-white/60 focus:ring-2 focus:ring-accent-400 focus:border-accent-400 transition-all backdrop-blur-sm resize-none"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full bg-accent-500 hover:bg-accent-600 text-white py-4 rounded-xl font-bold text-lg transition-all shadow-lg hover:shadow-xl transform hover:scale-105">
+                            <i class="fas fa-paper-plane mr-2"></i>
+                            Demo so'rash
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="space-y-8">
+                    <div>
+                        <h3 class="text-2xl font-bold mb-6">Bog'lanish ma'lumotlari</h3>
+                        <div class="space-y-6">
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 bg-accent-500 rounded-xl flex items-center justify-center flex-shrink-0">
+                                    <i class="fas fa-phone text-white text-xl"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-lg">Telefon</h4>
+                                    <p class="text-white/80">+998 90 123 45 67</p>
+                                    <p class="text-white/80">+998 71 123 45 67</p>
+                                    <p class="text-white/60 text-sm mt-1">Dushanba-Juma: 9:00-18:00</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 bg-success-500 rounded-xl flex items-center justify-center flex-shrink-0">
+                                    <i class="fas fa-envelope text-white text-xl"></i>
+                                </div>
+                                <div>
+                                                                        <h4 class="font-bold text-lg">Email</h4>
+                                    <p class="text-white/80">info@facechek.uz</p>
+                                    <p class="text-white/80">support@facechek.uz</p>
+                                    <p class="text-white/60 text-sm mt-1">24/7 javob beramiz</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 bg-primary-500 rounded-xl flex items-center justify-center flex-shrink-0">
+                                    <i class="fas fa-map-marker-alt text-white text-xl"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-lg">Manzil</h4>
+                                    <p class="text-white/80">Toshkent sh., Chilanzar tumani,</p>
+                                    <p class="text-white/80">45A-mavze, 12-uy</p>
+                                    <p class="text-white/60 text-sm mt-1">Mo'ljal: IT Park</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Social Media Links -->
+                    <div>
+                        <h3 class="text-2xl font-bold mb-6">Bizni kuzating</h3>
+                        <div class="flex space-x-4 justify-center lg:justify-start">
+                            <a href="https://t.me/facechek" target="_blank" class="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center hover:bg-accent-500 hover:text-white transition-all">
+                                <i class="fab fa-telegram text-xl"></i>
+                            </a>
+                            <a href="https://instagram.com/facechek" target="_blank" class="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center hover:bg-accent-500 hover:text-white transition-all">
+                                <i class="fab fa-instagram text-xl"></i>
+                            </a>
+                            <a href="https://facebook.com/facechek" target="_blank" class="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center hover:bg-accent-500 hover:text-white transition-all">
+                                <i class="fab fa-facebook-f text-xl"></i>
+                            </a>
+                            <a href="https://linkedin.com/company/facechek" target="_blank" class="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center hover:bg-accent-500 hover:text-white transition-all">
+                                <i class="fab fa-linkedin-in text-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div>
+                        <h3 class="text-2xl font-bold mb-6">Tez havolalar</h3>
+                        <div class="grid grid-cols-2 gap-4">
+                            <a href="#features" class="text-white/80 hover:text-accent-400 transition-colors">
+                                <i class="fas fa-arrow-right mr-2"></i>Xususiyatlar
+                            </a>
+                            <a href="#pricing" class="text-white/80 hover:text-accent-400 transition-colors">
+                                <i class="fas fa-arrow-right mr-2"></i>Narxlar
+                            </a>
+                            <a href="#calculator" class="text-white/80 hover:text-accent-400 transition-colors">
+                                <i class="fas fa-arrow-right mr-2"></i>Kalkulyator
+                            </a>
+                            <a href="#support" class="text-white/80 hover:text-accent-400 transition-colors">
+                                <i class="fas fa-arrow-right mr-2"></i>Qo'llab-quvvatlash
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 text-white py-16">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-12">
+                <!-- Logo and Description -->
+                <div>
+                    <div class="flex items-center space-x-4 mb-6">
+                        <div class="w-12 h-12 bg-gradient-to-r from-primary-500 via-purple-500 to-accent-500 rounded-2xl flex items-center justify-center">
+                            <i class="fas fa-user-check text-white text-xl"></i>
+                        </div>
+                        <span class="text-2xl font-black">FaceChek</span>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed">
+                        FaceChek - sun'iy intellekt asosidagi davomat va nazorat tizimi. Ta'lim muassasalari va korporativ tashkilotlar uchun avtomatik yechim.
+                    </p>
+                </div>
+
+                <!-- Product Links -->
+                <div>
+                    <h4 class="text-lg font-bold mb-6">Mahsulot</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#features" class="text-gray-400 hover:text-white transition-colors">AI Xususiyatlari</a></li>
+                        <li><a href="#integrations" class="text-gray-400 hover:text-white transition-colors">Integratsiyalar</a></li>
+                        <li><a href="#analytics" class="text-gray-400 hover:text-white transition-colors">Analitika</a></li>
+                        <li><a href="#calculator" class="text-gray-400 hover:text-white transition-colors">Kalkulyator</a></li>
+                    </ul>
+                </div>
+
+                <!-- Solutions Links -->
+                <div>
+                    <h4 class="text-lg font-bold mb-6">Yechimlar</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#schools" class="text-gray-400 hover:text-white transition-colors">Maktablar</a></li>
+                        <li><a href="#universities" class="text-gray-400 hover:text-white transition-colors">Universitetlar</a></li>
+                        <li><a href="#corporate" class="text-gray-400 hover:text-white transition-colors">Korporativ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Support Links -->
+                <div>
+                    <h4 class="text-lg font-bold mb-6">Qo'llab-quvvatlash</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#support" class="text-gray-400 hover:text-white transition-colors">Yordam markazi</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition-colors">Biz bilan bog'laning</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-white transition-colors">FAQ</a></li>
+                        <li><a href="#pricing" class="text-gray-400 hover:text-white transition-colors">Narxlar</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
+                <div class="text-gray-400 text-sm">
+                    &copy; 2025 FaceChek. Barcha huquqlar himoyalangan.
+                </div>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">Maxfiylik siyosati</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">Foydalanish shartlari</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile Menu Toggle
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            mobileMenu.classList.toggle('hidden');
+        }
+
+        // FAQ Toggle
+        function toggleFAQ(id) {
+            const content = document.getElementById(`faq-content-${id}`);
+            const icon = document.getElementById(`faq-icon-${id}`);
+            content.classList.toggle('hidden');
+            icon.classList.toggle('rotate-180');
+        }
+
+        // Number Counter Animation
+        function animateCounter(element, target, duration) {
+            let start = 0;
+            const stepTime = Math.abs(Math.floor(duration / target));
+            const timer = setInterval(() => {
+                start += 1;
+                element.textContent = start;
+                if (start >= target) {
+                    clearInterval(timer);
+                    element.textContent = target;
+                }
+            }, stepTime);
+        }
+
+        // Trigger counters on scroll
+        const counters = document.querySelectorAll('.number-counter');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const target = parseFloat(entry.target.getAttribute('data-target'));
+                    animateCounter(entry.target, target, 2000);
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.5 });
+
+        counters.forEach(counter => observer.observe(counter));
+
+        // Calculator Logic
+        const inputs = ['avgSalary', 'lessonCount', 'lessonDuration', 'attendanceTime', 'employeeCount'];
+        inputs.forEach(id => {
+            document.getElementById(id).addEventListener('input', calculateSavings);
+        });
+
+        function calculateSavings() {
+            const avgSalary = parseFloat(document.getElementById('avgSalary').value.replace(/,/g, '')) || 0;
+            const lessonCount = parseFloat(document.getElementById('lessonCount').value) || 0;
+            const lessonDuration = parseFloat(document.getElementById('lessonDuration').value) || 0;
+            const attendanceTime = parseFloat(document.getElementById('attendanceTime').value) || 0;
+            const employeeCount = parseFloat(document.getElementById('employeeCount').value) || 0;
+
+            // Calculations
+            const minuteSalary = avgSalary / (30 * 8 * 60); // Monthly salary to per minute
+            const attendanceSalary = minuteSalary * attendanceTime; // Cost per attendance check
+            const monthlyAttendanceSalary = attendanceSalary * lessonCount * employeeCount; // Monthly cost
+            const totalSalary = monthlyAttendanceSalary; // Total cost
+            const monthlySavings = totalSalary * 0.9; // 90% savings with FaceChek
+            const yearlySavings = monthlySavings * 12; // Yearly savings
+
+            // Update DOM
+            document.getElementById('minuteSalary').textContent = minuteSalary.toLocaleString('uz-UZ', { maximumFractionDigits: 2 }) + " so'm";
+            document.getElementById('attendanceSalary').textContent = attendanceSalary.toLocaleString('uz-UZ', { maximumFractionDigits: 2 }) + " so'm";
+            document.getElementById('monthlyAttendanceSalary').textContent = monthlyAttendanceSalary.toLocaleString('uz-UZ', { maximumFractionDigits: 2 }) + " so'm";
+            document.getElementById('totalSalary').textContent = totalSalary.toLocaleString('uz-UZ', { maximumFractionDigits: 2 }) + " so'm";
+            document.getElementById('monthlySavings').textContent = monthlySavings.toLocaleString('uz-UZ', { maximumFractionDigits: 2 }) + " so'm";
+            document.getElementById('yearlySavings').textContent = yearlySavings.toLocaleString('uz-UZ', { maximumFractionDigits: 2 }) + " so'm";
+        }
+
+        // Navbar Scroll Effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('bg-gray-900/80', 'backdrop-blur-md');
+            } else {
+                navbar.classList.remove('bg-gray-900/80', 'backdrop-blur-md');
+            }
+        });
+    </script>
 </body>
-
 </html>
